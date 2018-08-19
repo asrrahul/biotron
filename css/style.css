@@ -1,0 +1,409 @@
+.fixed {
+   position: fixed;
+   top: 150px;
+   right: 0;
+   bottom: 0;
+   overflow-y: auto;
+   width: 250px; // your value
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+	position: fixed;
+	top: 60px;
+	left: 0;
+	bottom: 0;
+   display: inline-block;
+    z-index: 999;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 1150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+	 
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	 
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.prodmenu{
+    width: 325px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    
+}
+.prodrow{
+	width:100%;
+}
+/*=================================================================
+	Principals
+==================================================================*/
+
+.project-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.project-wrapper li {
+    display: inline-block;
+}
+
+.portfolio-item {
+    cursor: pointer;
+    margin: 0 1% 1% 0;
+    overflow: hidden;
+    position: relative;
+    width: 15%;
+}
+
+figcaption.mask {
+    background-color: rgba(54, 55, 50, 0.79);
+    bottom: -126px;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
+.portfolio-item:hover figcaption.mask {
+    bottom: 0;
+}
+
+figcaption.mask h3 {
+    margin: 0;
+    color: #fff;
+}
+
+ul.external {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -47px;
+    
+    -webkit-transition: all 0.4s ease 0s;
+       -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+}
+
+ul.external li {
+    display: inline-block;
+}
+
+ul.external li a {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #818181;
+    display: block;
+    padding: 10px 18px 13px;
+    
+    -webkit-transition: all 0.5s ease 0s;
+       -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+         -o-transition: all 0.5s ease 0s;
+            transition: all 0.5s ease 0s;
+}
+
+ul.external li a:hover {
+    background-color: #009EE3;
+    color: #fff;
+}
+
+.portfolio-item:hover ul.external {
+    top: 0;
+}
+
+.fancybox-skin {
+    border-radius: 0;
+}
+
+.fancybox-title.fancybox-title-inside-wrap {
+    padding: 15px;
+}
+
+.fancybox-title h3 {
+    margin: 0 0 15px;
+}
+
+.fancybox-title p {
+    color: #818181;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.fancybox-title-inside-wrap {
+    padding-top: 0;
+}
+
+
+#enquire {
+  background-color: #1881a2;
+  background-image: url("../img/sponsor-bg.jpg");
+  background-position:100% 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.contact-details h3 {
+    border-bottom: 1px solid #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+	color: white; 
+}
+
+.contact-details p {
+    line-height: 30px;
+	color: white; 
+}
+
+.contact-details p i {
+    margin-right: 10px;
+}
+
+.contact-details span {
+    display: block;
+    margin-left: 24px;
+}
+
+.sideprodmenu {
+	right:20px;
+	top:220px;
+	position: fixed;
+	text-align: right;
+	
+}
+
+.sideprodlist {
+	color: rgb(51, 122, 183);
+	font-weight: 600;
+}
+
+.prodhead{
+	color : #ef2f43;	
+	text-align:left;
+	text-transform:none;
+}
+.prodtext{
+	text-align:left;
+}
+
+.service-icon {
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 36px;
+  height: 90px;
+  line-height: 90px;
+  width: 90px;  
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+.our-services .col-sm-3:hover .service-icon {
+  background-color: #333;
+}
+
+.our-services .col-sm-4 {
+  border-right:1px solid #f2f2f2;
+  border-bottom:1px solid #f2f2f2;
+  padding-bottom: 50px;
+}
+
+.our-services .col-sm-4:nth-child(4), 
+.our-services .col-sm-4:nth-child(5), 
+.our-services .col-sm-4:nth-child(6) {
+  border-bottom:0;
+  padding-top: 60px;
+}
+
+.our-services .col-sm-4:nth-child(3), 
+.our-services .col-sm-4:nth-child(6) {
+  border-right:0;
+}
+
+.service-info h3 {
+  margin-top: 35px;
+}
+
+/*************************
+********Twitter CSS*******
+**************************/
+#twitter {
+  background-image: url(../images/twitter-bg.jpg);
+}
+
+#twitter > div {
+  text-align: center;
+  position: relative;
+}
+
+#twitter-carousel {
+  position: relative;
+  z-index: 15
+}
+
+.twitter-icon {
+  position: relative;
+  z-index: 15;
+  color: #fff;
+}
+
+.twitter-icon .fa-twitter {
+  font-size: 24px;
+  height: 64px;
+  width: 64px;
+  line-height: 65px;
+  border-radius: 50%; 
+  position: relative;
+}
+
+.twitter-icon .fa-twitter:after {
+  position: absolute;
+  content: "";
+  border-width: 8px;
+  border-style: solid;
+  left: 24px;
+  bottom: -14px;
+}
+
+#twitter-carousel .item {
+  padding: 0 55px;
+}
+
+#twitter-carousel .item a {
+  color: #fff;
+}
+
+.twitter-icon h4 {
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.twitter-left-control, 
+.twitter-right-control {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  border: 1px solid #fafafa;
+  height:34px;
+  width: 34px;
+  line-height: 31px;
+  margin-top: -17px;
+  font-size: 18px;
+  border-radius: 50%;
+  z-index: 15
+}
+
+.twitter-left-control {
+  left: 80px;
+} 
+
+.twitter-right-control {
+  right: 80px
+}
+
+.twitter-left-control:hover, .twitter-right-control:hover {
+  color: #fff;
+}
+
+.contactus {
+  height:300px;
+}
+
+.prodsec{
+	background-position: left top;
+    padding: 15px; 
+	border-bottom: 2px solid #73AD21;
+}
+.prodsec:hover{
+  cursor: pointer;
+}
+
+
+
+
+.prodhead{
+	color : #ef2f43;	
+	text-align:left;
+	text-transform:none;
+	padding-left:50px;
+	text-shadow: -4px 4px 3px #999, 1px -1px 2px #000;
+}
+.prodtext{
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+	padding-bottom:50px;
+}
+
+.container1{
+	padding-right:5px;
+	padding-left:5px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.odd {
+	background-color: #f4f6f7;
+}
+.even {
+	
+}
+
+.sideprodmenu {
+	right:20px;
+	top:120px;
+	position: fixed;
+	text-align: right;
+	
+}
+
+.sideprodlist {
+	color: #24b662;
+	font-weight: 600;
+}

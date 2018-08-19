@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Biotron</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
+        <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/splitdemo.css" />
+        <link rel="stylesheet" type="text/css" href="css/splitstyle.css" />
+        <link rel="stylesheet" type="text/css" href="css/splitcustom.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyle.css">
+		<link rel="stylesheet" type="text/css" href="css/iconbar.css">
+		<script type="text/javascript" src="js/slider/modernizr.custom.79639.js"></script>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/splitstyleNoJS.css" />
+		</noscript>
+		<style>
+			.tooltip-content {
+				position: absolute;
+				bottom: 100%;
+				left: 50%;
+				z-index: 9999;
+				margin: 0 0 105px -140px;
+				padding: 25px;
+				width: 280px;
+				border-radius: 10px/50%;
+				background: #fff;
+				color: #dd5864;
+				text-align: left;
+				font-size: 16px;
+				opacity: 0;
+				cursor: default;
+				transition: opacity 0.3s, transform 0.3s;
+				pointer-events: none;
+			}
+		</style>
+    </head>
+    <body>
+        
+        <div class="container demo-2">
+			<header class="clearfix">
+				<h1>Biotron Health Care<span>Cell Biology and Imaging</span></h1>
+				<nav class="codrops-demos">
+					<a href="index.html#about">About</a>
+					<a class="current-demo" href="index.html#portfolio">Products</a>
+					<a href="index.html#services">Principals</a>
+					<a href="index.html#team">Team</a>
+					<a href="index.html#enquire">Contact Us</a>
+					<a href="index.html#contact">Enquiry</a>
+				</nav>
+			</header>
+
+            <div id="slider" class="sl-slider-wrapper">
+				<nav id="nav-dots" class="nav-dots">
+					<span title="3D Cell BioPrinter" class="nav-dot-current"></span>
+					<span title="Bertin InCellis"></span>
+					<span title="CellaVista"></span>
+					<span title="NYONE"></span>
+					<span title="CQ1"></span>
+				</nav>
+				<div class="icon-bar">
+				  <a href="./Multi-ModeReader.html" class="facebook" title="Multi-Mode Reader"><span id="a">M</span><span id="b">Multi-Mode Reader</span></a> 
+				  <a href="./Electrophysiology.html" class="twitter" title="Electrophysiology"><span id="a">E</span><span id="b">Electrophysiology</span></a> 
+				  <a href="./Biologics.html" class="google" title="Biologics / BioSimilars"><span id="a">B</span><span id="b">Biologics</span></a>
+				  <a href="./MolecularBiology.html" class="linkedin" title="Molecular Biology / Diagnostics"><span id="a">M</span><span id="b">Molecular Biology</span></a> 
+				  <a href="./RapidKitManufacturing.html" class="youtube" title="Rapid Kit Manufacturing / Biosensors"><span id="a">R</span><span id="b">Rapid Kit Manufacturing</span></a> 
+				</div>
+
+				<div class="sl-slider">
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-1"></div>
+							<h2>3D Cell BioPrinter</h2>
+							<blockquote>
+							<h4 class="prodhead">The future of 3D bioprinting<br/>&nbsp;</h4>
+							<p class="prodtext">
+								The INKREDIBLE 3D Bioprinter allows you to print human tissue right in front of your eyes. The INKREDIBLE bioprinter offers excellent accuracy, high reproducibility, and ease of use. The INKREDIBLE Bioprinter has been optimized to print Skin and Cartilage tissue, however, the sky is the limit on what tissues you can print. The world is waiting to see what you will print next.
+							</p>
+							<main>
+									<input id="tab14" type="radio" name="tabs" checked>
+									<label for="tab14">Summary</label>
+									<input id="tab15" type="radio" name="tabs">
+									<label for="tab15">Bio X</label>
+									<input id="tab16" type="radio" name="tabs">
+									<label for="tab16">Inkredible</label>
+									<input id="tab17" type="radio" name="tabs">
+									<label for="tab17">Cellink Go</label>
+									<section id="content14">
+										<h4 class="prodhead">INKREDIBLE +<br/>&nbsp;</h4>
+										<p class="prodtext">The INKREDIBLE+ 3D Bioprinter allows you to print human tissue right in front of your eyes. It offers excellent accuracy, high reproducibility, and ease of use. The INKREDIBLE+ is a pneumatic-based extrusion bioprinter with dual printheads and UV LED curing system for bioprinting of complex human tissue models and organs for tissue engineering research. Furthermore, the INKREDIBLE+ also contains a system for heating the cartridges, allowing for even more diverse uses in bioprinting. CELLINK's patented Clean Chamber Technology allows the INKREDIBLE+ to be operated outside of a biological hood – making it a true benchtop 3D bioprinter! With a HEPA filtered positive air pressure inside the printing chamber you can be sure that your bioprinting is sterile.<br/>&nbsp;</p>	
+										<h4 class="prodhead">INKREDIBLE<br/>&nbsp;</h4>
+										<p class="prodtext">The INKREDIBLE 3D bioprinter is a pneumatic-based extrusion bioprinter with dual print heads and UV LED curing system for bioprinting of complex human tissue models and organs for tissue engineering research. It is a cost-effective unit for innovators to enter the 3D bioprinting field and start bioprinting living tissues at ease. The INKREDIBLE series bioprinters can be used as standalone units thanks to the LCD controller or they can be monitored through a computer with the use of the accompanied software. Your three-dimensional design files are translated into coordinates and instructions for the INKREDIBLE which allows the bioprinter to move according to a defined path. The bioprinting process works through the extrusion of a bioink or hydrogel biomaterial combined with human cells in a bottom-up, layer-by-layer fashion until a 3D construct is built. Once the construct has been bioprinted, it is crosslinked using the UV LED curing system or ionic solutions, depending on your bioink’s crosslinking requirements.<br/>&nbsp;</p>	
+										<h4 class="prodhead">BIO X<br/>&nbsp;</h4>
+										<p class="prodtext">BIO X is the new go-to bioprinter for life science companies, researchers and innovators who work with bioprinting. Built to meet the needs of today’s bio-scientists, BIO X’s responsive Neocortex M1 internal computer allows the user to orchestrate the intricate process of building human tissues. BIO X is the most user friendly bioprinter on the market and complete standalone product with features scientist have been waiting for.<br/>&nbsp;</p>	
+									</section>
+									<section id="content15">
+										<h4 class="prodhead">BIO X 3D BIOPRINTER<br/>&nbsp;</h4>
+										<p class="prodtext">BIO X is the new go-to 3d bioprinter for life science companies, researchers and innovators who work with bioprinting. Built to meet the needs of today’s bio-scientists, BIO X’s responsive Neocortex M1 internal computer coupled with HeartOS, the most powerful bioprinting operating system out there, allows the user to orchestrate the intricate process of building human tissues. BIO X is the most user friendly bioprinter on the market and a complete standalone product.<br/>&nbsp;</p>
+										<h4 class="prodhead">CLEAN. REINVENTED.<br/>&nbsp;</h4>
+										<p class="prodtext"><b>A complete system of uncompromised cleanliness</b></p>
+										<p class="prodtext">With dual, high-power fans producing a powerful airflow through its dual filtration top, the BIO X 3d bioprinter creates a positive pressure inside the chamber. The HEPA H14 dual filter top makes sure that more than 99.995% of unwanted particles and microorganisms are retained. BIO X is equipped with UV-C germicidal lamps that allow you to run sterilization cycles to sterilize the printing environment<br/>&nbsp;</p>
+										<h4 class="prodhead">USER-CENTERED INTERFACE<br/>&nbsp;</h4>
+										<p class="prodtext"><b>Ergonomically designed for your convenience</b></p>
+										<p class="prodtext">Your convenience is our priority. The BIO X touch display is fully usable even while you’re wearing gloves, facilitating the keeping of a clean environment. BIO X and its screen are durable like any lab equipment and can thus be cleaned as such.<br/>&nbsp;</p>
+										<h4 class="prodhead">PRINT HEADS<br/>&nbsp;</h4>
+										<p class="prodtext"><b>Intelligent and exchangeable</b></p>
+										<p class="prodtext">BIO X is the first 3d bioprinter in the world with Intelligent Print Heads (iPH), ensuring your research is always on the cutting edge. The BIO X print heads are specifically designed with flexibility, beauty, and simplicity in mind. The best part is that you can design your own dispensing technologies or methods and utilize them with the BIO X system. The possbilities are endless, giving you full freedom in your lab work.<br/>&nbsp;</p>
+										<h4 class="prodhead">FOR ANY APPLICATION<br/>&nbsp;</h4>
+										<p class="prodtext"><b>CELLINK offer a range of print heads and tool heads</b></p>
+										<p class="prodtext">Utilize the triple print head technology provided by BIO X to combine different materials and printing techniques to fit your application.</p>
+										<p class="prodtext">Collaboration is the key to success. If you don’t find the tool head you need, just let us know!</p>
+									</section>
+									<section id="content16">
+										<h4 class="prodhead">INKREDIBLE 3D BIOPRINTERS<br/>&nbsp;</h4>
+										<p class="prodtext"><b>The future of 3D bioprinting</b></p>
+										<p class="prodtext">The INKREDIBLE Bioprinter has been optimized to print Skin and Cartilage tissue, however, the sky is the limit on what tissues you can print. The world is waiting to see what you will print next.<br/>&nbsp;</p>
+										<p class="prodtext"><b>UNRIVALLED STERILITY, PRECISION AND VERSATILITY</b><br/>&nbsp;</p>
+										<p class="prodtext">Robust and reliable, the INKREDIBLE+ 3D Bioprinter is the only true benchtop bioprinter on the market. The newly optimized benchtop bioprinter is perfect for the ultimate bioprinting of human tissues and tissue models for 3D culture in today’s ever more advanced research applications. With the INKREDIBLE 3D Bioprinter on your lab, you’ll see a dramatic increase in your research productivity in a wide range of applications with unrivalled support as a benefit.<br/>&nbsp;</p>
+										<p class="prodtext">The INKREDIBLE 3D bioprinter is a pneumatic-based extrusion bioprinter with dual print heads and UV LED curing system for bioprinting of complex human tissue models and organs for tissue engineering research. It is a cost-effective unit for innovators to enter the 3D bioprinting field and start bioprinting living tissues at ease. The INKREDIBLE+ can be used right on a lab bench thanks to our patented Clean Chamber Technology. With a HEPA filtered positive air pressure inside the printing chamber you can be sure that your bioprinting is sterile. Furthermore, the INKREDIBLE+ also contains a system for heating the cartridges, allowing for even more diverse uses in bioprinting.<br/>&nbsp;</p>
+										<p class="prodtext">Both bioprinters can be used as standalone units thanks to their LCD controllers or they can be monitored through a computer with the use of the accompanied software. Your three-dimensional design files are translated into coordinates and instructions for the INKREDIBLE which allows the bioprinter to move according to a defined path. The bioprinting process works through the extrusion of a bioink or hydrogel biomaterial combined with human cells in a bottom-up, layer-by-layer fashion until a 3D construct is built. Once the construct has been bioprinted, it is crosslinked using the UV LED curing system or ionic solutions, depending on your bioink’s crosslinking requirements.<br/>&nbsp;</p>
+										<p class="prodtext"><b>DUAL PRINTHEADS</b></p>
+										<p class="prodtext">The dual printheads allows you to use different types of cells in the same structure, without swiching cartridges or pausing the bioprinting process. This makes it possible to print using for example a support structure, thus enabling the INKREDIBLE to bioprint complex structures that would otherwise collapse.<br/>&nbsp;</p>
+										<p class="prodtext"><b>CLEAN CHAMBER TECHNOLOGY</b></p>
+										<p class="prodtext">CELLINK's patented Clean Chamber Technology allows the INKREDIBLE+ to operated outside of a biological hood – creating a true desktop 3D bioprinter! With a HEPA filtered positive air pressure inside the printing chamber you can be sure that your bioprinting is sterile.<br/>&nbsp;</p>		
+										<!--p class="prodtext"><b>UV-CROSSLINKING SYSTEM</b></p>
+										<p class="prodtext">The UV-crosslinking system hardens the structure allowing it to be moved without losing its structure. Both the INKREDIBLE and the INKREDIBLE+ are delivered with 365 nm LED:s as standard and the INKREIDIBLE+ even has a 405 nm option to further widen the range of bioinks which can be crosslinked.<br/>&nbsp;</p-->		
+									</section>
+									<section id="content17">
+										<h4 class="prodhead">CELLINK GO<br/>&nbsp;</h4>
+										<p class="prodtext"><b>A new 3D Bioprinter and educational platform.</b></p>
+										<p class="prodtext">The CELLINK GO platform includes a Bioprinter, Bioinks, kits, curriculum and other related products and is managed by a laptop software that ensures that users can quickly learn to bioprint various materials. CELLINK’s mission is to work heavily within education to help mold the scientists of the future by integrating 3D Bioprinting into education.</p>
+										<p class="prodtext">Together with bullying prevention organizations Be Strong (bestrong.global), Speak Up (gospeakup.com/se/) and three leading bioprinting scientist Dr. Ali Khademhosseini, Dr. Angela Panoskaltsis-Mortari and Dr. George Christ, CELLINK will launch the anti-bullying campaign “Fit for Science” in conjunction with the launch of CELLINK Go.</p>
+									</section>
+								</main>
+										
+							</blockquote>
+						</div>
+					</div>
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-2"></div>
+							<h2>Bertin InCellis</h2>
+							<blockquote>
+								<h4 class="prodhead">INCELLIS CELL IMAGER<br/>&nbsp;</h4>
+								<p class="prodtext"><b>Cell biologists need to generate cell images in living conditions with a high level of sensitivity to detect fluorescent labelling before working on a high end complex microscopy platform.</b><br/>&nbsp;</p>
+								<p class="prodtext">The new InCellis cell imager provides publication-quality images of cell culture, including multi fluorescent cell labelling, and allows the calculation of cell transfection efficiency and cell culture confluency directly on the bench. Based on cutting-edge camera technology, efficient LED illumination and easy-to-use software, InCellis cell imaging system supplies a high level of performance in one minute.<br/>&nbsp;</p>
+								<p class="prodtext">The useful applications provided by InCellis can calculate the cell culture confluency and the cell transfection efficiency in a few seconds. It ensures a rapid and efficient quality control of any live cell imaging experiments.<br/>&nbsp;</p>
+								<h3 class="prodhead">Reasons to choose InCellis cell imager </h3>
+								<ul class="prodtext" style="padding-left:50px">
+									<li>Reasons to choose InCellis cell imager</li>
+									<li>In one minute, on the bench, all images can be processed with the embedded apps</li>
+									<li>Smart interface to save and share your results</li>
+									<li>High-level technical features to generate publication quality image: LL Color CMOS sensor, 4 fluorescent channels, 6 positions objective turret, etc.</li>
+									<li>A worldwide distribution network to support you wherever you are</li>
+								</ul>
+								
+								<main>
+									<input id="tab1" type="radio" name="tabs" checked>
+									<label for="tab1">Datasheet</label>
+									<input id="tab2" type="radio" name="tabs">
+									<label for="tab2">Benefit</label>
+									<input id="tab3" type="radio" name="tabs">
+									<label for="tab3">Technology</label>
+									<input id="tab4" type="radio" name="tabs">
+									<label for="tab4">Accessories</label>
+									<section id="content1">
+										<ul class="prodtext" style="padding-left:50px">
+											<li><b>Light source:</b> Interchangeable InCellis Fluorescent Light Modules with Adjustable-intensity LED (>50,000-hour life per light cube) Contrast methods: Epifluorescence and transmitted light (brightfield and phase contrast)</li>
+											<li><b>Condense:</b> Includes 4 positions, with bright-field and phase-contrast annuli</li>
+											<li><b>Stage:</b> Mechanical stage with X-Y axis fine-positioning controls, Z axis fine and coarse adjustments</li>
+											<li><b>LCD display:</b> 17” high-resolution touch screen (1280×1024 pixels) with adjustable tilt ( waterproof, IP25 requirement)</li>
+											<li><b>Cameras:</b> Low Light color CMOS Sensor, 1280×1024 pixels</li>
+											<li><b>Exported formats:</b> 24-bit color TIFF or JPEG, BMP (1,280 x 960 pixels), AVI   Output ports 3 USB ports</li>
+											<li><b>InCellis Applications:</b> Transfection efficiency, Cell culture confluency, multi-color fluorescent image overlay</li>
+											<li><b>Power supply:</b> AC/DC 100-240 V, 100 W, 12 V, 8.33 A</li>
+											<li><b>Operating Power:</b> 100-240 V, 1.5 A, 50/60 Hz</li>
+											<li><b>Operating environment:</b> 5-40°C, 20-95%</li>
+											<li><b>Dimensions:</b> Height: 635 mm – Depth: 420 mm – Width: 420 mm Weight: 24 kg</li>
+										</ul>
+									</section>
+									<section id="content2">
+										<ul class="prodtext" style="padding-left:50px">
+											<li>High sensitivity in fluorescence with our unique low light color camera</li>
+											<li>Embedded dedicated cell culture applications to determine accurate cell culture confluency and transfection efficiency</li>
+											<li>Smart interface to save time and share your results</li>
+											<li>High flexibility: 6 positions objective turret and 4 fluorescent channels</li>
+											<li>Large field of view due to our unique optical design</li>
+										</ul>
+									</section>
+									<section id="content3">
+										<ul class="prodtext" style="padding-left:50px">
+											<li>a unique high sensitive color CMOS camera, based on Kameleon technology (powered by Photonis) to detect low intensity fluorescent signals in living cells and generate true color images when you are working on stained tissue slides or cell culture in bright field or phase contrast</li>
+											<li>a unique design of led cubes and proven quality objective lenses to display high quality crisp images</li>
+											<li>an intuitive software to easily image your sample and calculate transfection efficiency, cell culture confluency and cell number</li>
+										</ul>
+									</section>
+									<section id="content4">
+										<ul class="prodtext" style="padding-left:50px">
+											<li>Fluorescent Light Modules</li>
+											<li>Vessel holders</li>
+										</ul>
+									</section>
+								</main>
+								
+							</blockquote>
+						</div>
+					</div>
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-3"></div>
+							<h2>CellaVista 4</h2>
+							<blockquote>
+								<h4 class="prodhead">The Cellavista 4® is a noninvasively measuring imaging system using brightfield and fluorescence detection with multiwell plates, chamber slides or RoboFlasks, for a broad range of cellular applications in cell line development, cellular research and drug discovery.<br/>&nbsp;</h4>
+								<h3 class="prodhead">Automated Multiparameter Cell Analysis</h3>
+								<p class="prodtext">The Cellavista® is a flexible image based platform with brightfield and multiple fluorescence detection capabilities that is even faster than it`s previous model. Equipped with up to 5 different magnifications, Cellavista 4® can deliver excellent results for a vast range of cellular applications. Commonly used in automated and high throughput environments, Cellavista 4® is able to image about 250 plates a day.<br/>&nbsp;</p>
+								<p class="prodtext">In 2007 SYNENTEC developed the 1st generation of Cellavista® - at times marketed by Innovatis and Roche - whose technology and image processing is constantly being improved.<br/>&nbsp;</p>
+								<p class="prodtext">Now in 2017 SYNENTEC`s engineers developed the 4th Generation of Cellavista. This newly revised automated cell culture microscope is characterized by same high quality as previous models but has many new features.<br/>&nbsp;</p>
+								<p class="prodtext">Cellavista 4® is designed for the characterization of cells as an integral step of your research, development and production process. The system is able to image organisms like zebrafish as well as fragments of a nucleus. The wide range of achievable resolutions makes this an ideal tool for research. This new generation of automated cell culture microscope enables high content measurements even in high throughput formats. <br/>&nbsp;</p>
+								<p class="prodtext">Cellavista® is set up with 6 different excitation sources and 6 different emission channels within the visible spectrum from UV (e.g. Hoechst/DAPI) to RED (e.g. Alexa®647).</p>
+								
+								<main>
+									<input id="tab5" type="radio" name="tabs" checked>
+									<label for="tab5">Features</label>
+									<input id="tab6" type="radio" name="tabs">
+									<label for="tab6">CellaVista</label>
+									<input id="tab7" type="radio" name="tabs">
+									<label for="tab7">Development</label>
+									<input id="tab8" type="radio" name="tabs">
+									<label for="tab8">R & D</label>
+									<section id="content5">
+										<p class="prodtext">Cellavista ® - High Content Measurements even in High Throughput formats!<br/>High performance image processing and exporting increases throughput of automation!<br/>&nbsp;</p>
+										<ul class="prodtext" style="padding-left:50px">
+											<li>Enhanced harmonic motion for imaging without agitation during plate scan</li>
+											<li>Ultrafast multiplex imaging</li>
+											<li>Redesigned highly sensitive optics</li>
+											<li>Our engineers continue to use HCS-grade lenses</li>
+											<li>3 times more sensitive fluorescence module enabling shorter exposures</li>
+											<li>faster measurements and less photobleaching than ever before</li>
+											<li>Autofocus performance is twice as fast as in previous models</li>
+										</ul>
+									</section>
+									<section id="content6">
+										<ul class="prodtext" style="padding-left:50px">
+											<li><b>Performs… </b> : Automated, fast and non-invasive brightfield and fluorescence imaging with multiparameter image analysis.</li>
+											<li><b>Provides… </b> : SBS standard plate formats (384, 96, 24, 12…), dishes, T 25 flasks and microscope slides.</li>
+											<li><b>Offers… </b> : Automation ready set up for integration into automated environments and easy linking to robotic arms, plate stackers, incubators, liquid handlers and clone pickers (e.g. PAA, Hamilton, Tecan, Caliper, Beckman Coulter and ThermoFisher Scientific).</li>
+										</ul>
+									</section>
+									<section id="content7">
+										<h3 class="prodhead">Cell Line Development – Precision Matters<br/>&nbsp;</h3>
+										<p class="prodtext">The Cellavista® is the ideal tool to generate stable monoclonal cell populations expressing the desired phenotype with the potential for upscaling in a high-throughput manner (3.5 minutes for an entire 96 well plate)!<br/>&nbsp;</p>
+										<p class="prodtext">Cell colonies are automatically detected with the included YT-software and monoclonality can easily be determined by tracking back the colony growth to the first day. Colony size and, in case of co-transfection, the fluorescence intensity of the colony can be used as selection criteria for the high producing clones. Furthermore the productivity can be checked in combination with the PAIAplate.<br/>&nbsp;
+										<b>Sure you could do the job yourself. The question is “why”…. Not using the power of Cellavista®?</b><br/>&nbsp;
+											<ul>
+													<li>Single Cell Cloning (support of different methods and resolutions)</li>
+													<li>Trypan Blue Viability monitoring</li>
+													<li>Suspension Cell Count</li>
+													<li>FASC Seeding Control</li>
+													<li>Transfection Efficiency</li>
+													<li>Total Well Intensity</li>
+													<li>Microplate Quality Control</li>
+											</ul>
+										</p>
+									</section>
+									<section id="content8">
+										<h3 class="prodhead">R & D – More Than High Resolution</h3>
+										<p class="prodtext">Cellular research is the key to understand the functionality of different cell mechanisms e.g. in certain diseases or in the field of drug discovery. The Cellavista® cell imager with its associated image analysis software detects highly selective between different cellular characteristics.<br/>&nbsp;</p>
+										<p class="prodtext">Cellular assays are required for the development of new pharmaceuticals and therapies. The Cellavista® is your gateway to innovative cellular assays which can be demonstrated e.g. in the field of stem cell research with a resolution up to 306 nm per pixel!<br/>&nbsp;</p>
+										<p class="prodtext">Due to the high performance white light unit of the Cellavista® sophisticated brightfield applications with week contrast, such as iPS-cell characterization, are ideal for the Cellavista® imaging system!<br/>&nbsp;
+										<b>Diving into the deep with Cellavista®:</b>
+											<ul>
+													<li>Cell Nuclei Count and Characterization</li>
+													<li>Immuno-staining</li>
+													<li>CD-marker</li>
+													<li>iPS-cell detection</li>
+													<li>Toxicity Studies</li>
+													<li>Apoptosis monitoring</li>
+											</ul>
+										</p>
+									</section>
+								</main>
+							</blockquote>
+						</div>
+					</div>
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-4"></div>
+							<h2>NYONE</h2>
+							<blockquote>
+								<h4 class="prodhead">The NyONE® is set up as the smaller edition of Cellavista®. Due to the fact that many labs run their application in medium throughput, NyONE is the perfect choice to save money and bench space. With up to about 100 plates per 10 hours, NyONE® fits ideal for Trypan Blue viability monitoring, confluence determination, single cell cloning etc.<br/>&nbsp;</h4>
+								<p class="prodtext">Both systems (Cellavista® and NyONE®) run on the same software platform supporting the same applications. This fact makes it easy to transfer your established process in case of upgrading to a higher throughput.<br/>&nbsp;</p>
+								
+								<h3 class="prodhead">Compact Image Cytometry</h3>
+								<p class="prodtext">This fully automated cell imager is characterized by its mechanical robustness, optical quality and functionality balanced features in a way that you will soon recognize that NyONE® is a reliable member of your team.<br/>&nbsp;</p>
+								
+								<ul class="prodtext" style="padding-left:50px">
+									<li><b>Performs… </b> : Automated, fast and non-invasive brightfield and fluorescence imaging with multi-parameter image analysis</li>
+									<li><b>Provides… </b> : SBS standard plate formats (384, 96, 24, 12…), dishes, T 25 flasks and microscope slides</li>
+									<li><b>Supports… </b> : Integration into automated environments in combination with an hardware automation-package and easy linking to robotic arms, plate stackers, incubators, liquid handlers and clone pickers (e.g. PAA, Hamilton, Tecan, Caliper, Beckman Coulter and ThermoFisher Scientific)</li>
+								</ul>
+								
+								<main>
+									<input id="tab9" type="radio" name="tabs" checked>
+									<label for="tab9">Monitoring</label>
+									<input id="tab10" type="radio" name="tabs">
+									<label for="tab10">Benefits</label>
+									<input id="tab11" type="radio" name="tabs">
+									<label for="tab11">NyONE® High End</label>
+									<section id="content9">
+										<h3 class="prodhead">Viability Monitoring – The Evergreen In Each Lab</h3>
+										<p class="prodtext">NyONE embodies a precisely synchronized optomechanical set-up. The sharp and contrasted brightfield image makes it a perfect device for the Trypan Blue viability test in a high throughput manner - a few seconds only per sample!<br/>&nbsp;</p>
+										<p class="prodtext">With the NyONE® cell imager the Trypan Blue assay can be carried out as whole-well measurements in 96 well microplates with significantly increasing throughput (5 minutes per 96 samples), reducing the time-to-result and requiring smaller sample volumes (20 µl in total) compared to other existing assay formats<br/>&nbsp;</p>
+										<p class="prodtext">The figure (Fig .1) shows the fairly exact matching of NyONEs’ achieved results compared with the viability testing gold standard. The wide range of 30 thousand cells up to nearly 20 million cells per milliliter was covered in this experiment. Here it can be seen that the accuracy of our measurement method is cell density-independent.<br/>&nbsp;</p>
+										
+									</section>
+									<section id="content10">
+										<ul class="prodtext" style="padding-left:50px">
+											<h3 class="prodhead">Your benefits having NyONE® as your team member<br/>&nbsp;</h3>
+											<li>Accurate, reproducible measurements using non-invasive brightfield and fluorescence imaging</li>
+											<li>Adherent and suspension cells</li>
+											<li>Complete documentation of cellular growth</li>
+											<li>Excellent well edge illumination of microplates</li>
+											<li>Perfect image stitching</li>
+											<li>Ultrafast electronic switched excitation sources – less than 5 ms switching time</li>
+											<li>Runs a complete scan of a 96-well microplate in about 5 minutes</li>
+											<li>Ultrafast filter wheel – 40 ms position changing time (well suited for FRET assays)</li>
+											<li>Achieves extraordinary image quality using specifically designed optic and laser autofocus mechanisms</li>
+											<li>Uses the flexibility of automated image analysis to improve the handling of your cellular assays</li>
+										</ul>
+									</section>
+									<section id="content11">
+										<h3 class="prodhead">NyONE® High End – More Than High Versatility<br/>&nbsp;</h3>
+										<p class="prodtext">NyONE® is equipped with 3 different lenses, achieving resolutions down to 360 nm/pixel, 3-4 excitation sources (UV to RED) and up to 6 different emission filters. All operating procedures are fully automated and can be embedded into a completely automated environment. In combination with our versatile YT-software a wide range of cellular assays is feasible.<br/>&nbsp;</p>
+										<p class="prodtext">This features combine accuracy, robustness and reproducibility with high versatility!
+										&nbsp;<br/><b>Discover the possibilities of NyONE®</b><br/>&nbsp;
+											<ul>
+													<li>Trypan Blue Viability</li>
+													<li>Suspension Cell Count</li>
+													<li>FASC Seeding Control</li>
+													<li>Transfection Efficiency</li>
+													<li>Total Well Intensity</li>
+													<li>Microplate Quality Control</li>
+													<li>Apoptosis monitoring</li>
+													<li>Single Cell Cloning Approaches</li>
+													<li>And all other applications provided by the</li>
+											</ul>
+										</p>
+									</section>
+								</main>
+								
+							</blockquote>
+						</div>
+					</div>
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<div class="bg-img bg-img-5"></div>
+							<h2>CQ1</h2>
+							<blockquote>
+								<h4 class="prodhead">Confocal Quantitative Image Cytometer CQ1 offers a new approach to image quantification</h4>
+								<p class="prodtext">CQ1 enables 3D imaging and quantification of live cell clusters, such as spheroids within a 3D culture vessel, as they are, keeping the cells intact. CQ1 exports feature data in general formats which are readable by various third-party software for advanced data analysis. It is possible to construct fully customized CQ1-based system by integrating with external systems*1, via robot for culture dish handling.<br/>&nbsp;</p>
+								<h3 class="prodhead">Overview</h3>
+								<h3 class="prodhead">Enables measurement of spheroids, colonies and tissue sections</h3>
+								<ul class="prodtext" style="padding-left:50px">
+									<li>No need to remove cells from culture dish, in contrast to traditional flow cytometry</li>
+									<li>Nipkow spinning disk confocal technology allows high-speed yet gentle 3D image acquisition</li>
+									<li>Rich feature extraction to facilitate sophisticated cellular image analysis</li>
+									<li>Wide field of view and tiling capability enable easy imaging of large specimen</li>
+								</ul><br/>&nbsp;
+								<h3 class="prodhead">Offers the similar operability to traditional flow cytometer</h3>
+								<ul class="prodtext" style="padding-left:50px">
+									<li>Feature data and statistical graphs displayed in real-time with image acquisition</li>
+									<li>Easy to trace back to the original image from a graph spot, and make repetitive measurements</li>
+								</ul><br/>&nbsp;
+								<h3 class="prodhead">Open platform</h3>
+								<ul class="prodtext" style="padding-left:50px">
+									<li>Expandable to integrated system as image acquisition and quantification instrument</li>
+									<li>FCS/CSV/ICE data format readable by third-party data analysis software</li>
+									<li>Connectable with external systems via handling robot*1</li>
+									<li>A variety of cell culture and sample dishes are applicable</li>
+								</ul><br/>&nbsp;
+								<h3 class="prodhead">Compact footprint, light weight bench-top device; no need for darkroom</h3>
+								<main>
+									<input id="tab12" type="radio" name="tabs" checked>
+									<label for="tab12">System Configuration</label>
+									<input id="tab13" type="radio" name="tabs">
+									<label for="tab13">Specifications</label>
+									<section id="content12">
+										<h3 class="prodhead">Viability Monitoring – The Evergreen In Each Lab</h3>
+										<p class="prodtext">NyONE embodies a precisely synchronized optomechanical set-up. The sharp and contrasted brightfield image makes it a perfect device for the Trypan Blue viability test in a high throughput manner - a few seconds only per sample!<br/>&nbsp;</p>
+										<p class="prodtext">With the NyONE® cell imager the Trypan Blue assay can be carried out as whole-well measurements in 96 well microplates with significantly increasing throughput (5 minutes per 96 samples), reducing the time-to-result and requiring smaller sample volumes (20 µl in total) compared to other existing assay formats<br/>&nbsp;</p>
+										<p class="prodtext">The figure (Fig .1) shows the fairly exact matching of NyONEs’ achieved results compared with the viability testing gold standard. The wide range of 30 thousand cells up to nearly 20 million cells per milliliter was covered in this experiment. Here it can be seen that the accuracy of our measurement method is cell density-independent.<br/>&nbsp;</p>
+										
+									</section>
+									<section id="content13">
+										
+									</section>
+								</main>
+							</blockquote>
+						</div>
+					</div>
+				</div><!-- /sl-slider -->
+			</div><!-- /slider-wrapper -->
+
+			<div class="content-wrapper">
+				<h2>About this slider</h2>
+				<p>The Slit Slider is a slideshow with a twist: the idea is to slice open the current slide when navigating to the next or previous one. Using jQuery and CSS animations we can create unique slide transitions for the content elements. </p>
+			</div>
+
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/slider/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/slider/jquery.slitslider.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+				/**
+				 * Notes: 
+				 * 
+				 * example how to add items:
+				 */
+
+				/*
+				
+				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+				// call the plugin's add method
+				ss.add($items);
+
+				*/
+			
+			});
+		</script>
+	</body>
+</html>
