@@ -17,43 +17,15 @@
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" media="screen" href="css/particlestyle.css">
-	<!-- JS-->
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
 	<!-- Custom Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-<script>
-	  var count_particles, stats, update;
-	  stats = new Stats;
-	  stats.setMode(0);
-	  stats.domElement.style.position = 'absolute';
-	  stats.domElement.style.left = '0px';
-	  stats.domElement.style.top = '0px';
-	  document.body.appendChild(stats.domElement);
-	  count_particles = document.querySelector('.js-count-particles');
-	  update = function() {
-		stats.begin();
-		stats.end();
-		if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-		  count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-		}
-		requestAnimationFrame(update);
-	  };
-	  requestAnimationFrame(update);
-</script>
 
-<!--script type="text/javascript">
-    $(window).load(function() {
-		$('#slider').nivoSlider();
-    });
-  </script--> 
-  
-      <style>
+  <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       /* Updated version - 24th Nov 2014 */
 
@@ -445,181 +417,98 @@
                 </div>
             </div>
 			<div class="container">
-    <ul class="accordion">
-      <li class="tabs">
-        <div class="social-links twitter-icon">
-          <a href="./Multi-ModeReader.html">Twitter</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./Multi-ModeReader.html">Multi Mode Reader</a></h3>
-			<p>	SPECTROstar NANO<br/>
-				FLUOstar Omega<br/>
-				POLARstar Omega<br/>
-				CLARIOstar<br/>
-				PHERAstar<br/>
-				NEPHELOstar<br/>
-			</p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links facebook-icon">
-          <a href="./CellBiologyImaging.html">Facebook</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./CellBiologyImaging.html">Cell Biology & Imaging</a></h3>
-			<p>3D Cell BioPrinter<br/>
-				Bertin InCellis<br/>
-				Synentec CellaVista<br/>
-				Synentec NyONE<br/>
-				Yokogawa CQ1 Confocal High Content Imager
-			</p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links linkedin-icon">
-           <a href="./Electrophysiology.html">LinkedIn</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./Electrophysiology.html">Electrophysiology</a></h3>
-          <p>Ionflux Family<br/>
-			  Multi Electrode Array Electrophysiology
-		  </p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links insta-icon">
-          <a href="./Biologics.html">Instagram</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./Biologics.html">Biologics / BioSimilars</a></h3>
-          <p>Cytena Single Cell Printer<br/>
-			 Clonality Imager<br/>
-			 IgG Quantification<br/>
-			 Host Cell Identity<br/>
-			 Stability and Performance<br/>
-		  </p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links youtube-icon">
-          <a href="MolecularBiology.html">Youtube</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./MolecularBiology.html">Molecular Biology / Diagnostics</a></h3>
-          <p>Automated DNA/RNA Automated Extraction<br/>
-			 Next Gen / Ultra Fast PCR<br/>
-			 Gel Documentation<br/>
-			 Genomics Workstation<br/>
-			 NGS Sample Prep
-		 </p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links tumblr-icon">
-          <a href="./RapidKitManufacturing.html">Tumblr</a>
-        </div>
-        <div class="paragraph">
-          <h3><a href="./RapidKitManufacturing.html">Rapid Kit Manufacturing / Biosensors</a></h3>
-			<p>	Dispense Only Systems<br/>
-				Aspirate & Dispense Systems<br/>
-			</p>
-        </div>
-      </li>
-      <li class="tabs">
-        <div class="social-links dribbble-icon">
-          <a href="http://dribbble.com">Dribbble</a>
-        </div>
-        <div class="paragraph">
-          <h3>Cell Culture Reagents</h3>
-          <p>I do not have a Dribbble account. Would any of you be so kind and send me an invite? </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-            <!--div class="prodrow" style="left:10px">
-				<div class="prodmenu">
-                    <div>
-						<div class="col-lg-12 text-center">
-							<h5>Discovery Biology</h5>
-						</div>
-                        <div>
-							<ul>
-								<li><a href="Multi-ModeReader.html" class="portfolio-link" data-toggle="modal">Multi-Mode Reader</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Microplate Nephelometry');" class="portfolio-link" data-toggle="modal">Microplate Nephelometry</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Automated Electrophysiology');" class="portfolio-link" data-toggle="modal">Automated Electrophysiology (Patch Clamp)</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Live Cell Imaging');" class="portfolio-link" data-toggle="modal">Live Cell Imaging (Kinetic / Time Lapse)</a></li>
-								<li><a href="#portfolioModal2" onclick="display('MEA Electrophysiology');" class="portfolio-link" data-toggle="modal">MEA (Multi Electrode Array) Electrophysiology</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Cell Imager');" class="portfolio-link" data-toggle="modal">Cell Imager</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Human iPSC-Derived Cells');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Human iPSC-Derived Cells</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Primary Cells');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Primary Cells</a></li>	
-								<li><a href="#portfolioModal2" onclick="display('Live Cell Assays in-vivo Conditions');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Live Cell Assays in-vivo Conditions</a></li>
-							</ul>
-						</div>
+				<ul class="accordion">
+				  <li class="tabs">
+					<div class="social-links twitter-icon">
+					  <a href="./Multi-ModeReader.html">Twitter</a>
 					</div>
-			    </div>
-				<div class="prodmenu">
-                    <div>
-						<div class="col-lg-12 text-center">
-							<h5>Biologics & BioSimilars</h5>
-						</div>
-                        <div>
-							<ul>
-								<li><a href="#portfolioModal2" onclick="display('IgG quantification Assays');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">IgG quantification Assays</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Host Cell Identity, Stability and Performance');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Host Cell Identity, Stability and Performance</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Sample Prep for LC-MS/MS');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Sample Prep for LC-MS/MS</a></li>
-								
-								<li><a href="#portfolioModal2" onclick="display('Single Cell Seeding');" class="portfolio-link" data-toggle="modal">Single Cell Seeding</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Clonal Dilution');" class="portfolio-link" data-toggle="modal">Clonal Dilution</a></li>
-								
-								<li><a href="#portfolioModal2" onclick="display('Cell Based Assays for Biological Drug Monitoring');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Cell Based Assays for Biological Drug Monitoring</a></li>
-								<li><a href="#portfolioModal2" onclick="display('ADCC Assays');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">ADCC Assays</a></li>
-							</ul>
-						</div>
+					<div class="paragraph">
+					  <h3><a href="./Multi-ModeReader.html">Multi Mode Reader</a></h3>
+						<p>	SPECTROstar NANO<br/>
+							FLUOstar Omega<br/>
+							POLARstar Omega<br/>
+							CLARIOstar<br/>
+							PHERAstar<br/>
+							NEPHELOstar<br/>
+						</p>
 					</div>
-			    </div>
-				<div class="prodmenu">
-                    <div>
-						<div class="col-lg-12 text-center">
-							<h5>Genomics, Molecular Biology / Diagnostics</h5>
-						</div>
-						<div>
-							<ul>
-								<li><a href="#portfolioModal2" onclick="display('Thermal Cycler');" class="portfolio-link" data-toggle="modal">Thermal Cycler (PCR)</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Gel Documentation System');" class="portfolio-link" data-toggle="modal">Gel Documentation System</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Real Time Quantitative PCR System');" class="portfolio-link" data-toggle="modal">Real Time Quantitative PCR System</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Automated Nucleic Acid Extraction System');" class="portfolio-link" data-toggle="modal">Automated Nucleic Acid Extraction System</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Genomics Workstations');" class="portfolio-link" data-toggle="modal">Genomics Workstations</a></li>
-								<li><a href="#portfolioModal2" onclick="display('NGS Sample Preparation System');" class="portfolio-link" data-toggle="modal">NGS Sample Preparation System</a></li>
-								<li><a href="#portfolioModal2" onclick="display('qPCR assays');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">qPCR assays</a></li>
-								<li><a href="#portfolioModal2" onclick="display('HLA high Resolution assays on NGS');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">HLA high Resolution assays on NGS</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Circulating Tumour Cells Isolation');" class="portfolio-link" data-toggle="modal">Circulating Tumour Cells (CTC) Isolation</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Genomics');" class="portfolio-link" data-toggle="modal">Genomics</a></li>
-								<li><a href="#portfolioModal2" onclick="display('BRCA NGS Panel');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">BRCA 1, 2 (Breast Cancer) NGS Panel</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Somatic Mutation Cancer NGS Kit');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Somatic Mutation Cancer NGS Kit</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Hereditary Cancer NGS Kit');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Hereditary Cancer NGS Kit</a></li>
-							</ul>
-						</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links facebook-icon">
+					  <a href="./CellBiologyImaging.html">Facebook</a>
 					</div>
-			    </div>
-			
-                <div class="prodmenu">
-                    <div>
-						<div class="col-lg-12 text-center">
-							<h5>Rapid Kit Manufacturing & Biosensors</h5>
-						</div>
-                        <div>
-							<ul>
-								<li><a href="#portfolioModal2" onclick="display('Dispensing Platforms');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Dispensing Platforms</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Guillotine Cutter');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Guillotine Cutter</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Lamination');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Lamination</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Custom Biosensor Manufacturing');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Custom Biosensor Manufacturing</a></li>
-								<li><a href="#portfolioModal2" onclick="display('Glucose Strips Manufacturing');" class="portfolio-link" data-toggle="modal" style="color: #337ab7;">Glucose Strips Manufacturing</a></li>
-							</ul>
-						</div>
-						</div>
+					<div class="paragraph">
+					  <h3><a href="./CellBiologyImaging.html">Cell Biology & Imaging</a></h3>
+						<p>3D Cell BioPrinter<br/>
+							Bertin InCellis<br/>
+							Synentec CellaVista<br/>
+							Synentec NyONE<br/>
+							Yokogawa CQ1 Confocal High Content Imager
+						</p>
 					</div>
-				</div-->
-			</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links linkedin-icon">
+					   <a href="./Electrophysiology.html">LinkedIn</a>
+					</div>
+					<div class="paragraph">
+					  <h3><a href="./Electrophysiology.html">Electrophysiology</a></h3>
+					  <p>Ionflux Family<br/>
+						  Multi Electrode Array Electrophysiology
+					  </p>
+					</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links insta-icon">
+					  <a href="./Biologics.html">Instagram</a>
+					</div>
+					<div class="paragraph">
+					  <h3><a href="./Biologics.html">Biologics / BioSimilars</a></h3>
+					  <p>Cytena Single Cell Printer<br/>
+						 Clonality Imager<br/>
+						 IgG Quantification<br/>
+						 Host Cell Identity<br/>
+						 Stability and Performance<br/>
+					  </p>
+					</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links youtube-icon">
+					  <a href="MolecularBiology.html">Youtube</a>
+					</div>
+					<div class="paragraph">
+					  <h3><a href="./MolecularBiology.html">Molecular Biology / Diagnostics</a></h3>
+					  <p>Automated DNA/RNA Automated Extraction<br/>
+						 Next Gen / Ultra Fast PCR<br/>
+						 Gel Documentation<br/>
+						 Genomics Workstation<br/>
+						 NGS Sample Prep
+					 </p>
+					</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links tumblr-icon">
+					  <a href="./RapidKitManufacturing.html">Tumblr</a>
+					</div>
+					<div class="paragraph">
+					  <h3><a href="./RapidKitManufacturing.html">Rapid Kit Manufacturing / Biosensors</a></h3>
+						<p>	Dispense Only Systems<br/>
+							Aspirate & Dispense Systems<br/>
+						</p>
+					</div>
+				  </li>
+				  <li class="tabs">
+					<div class="social-links dribbble-icon">
+					  <a href="http://dribbble.com">Dribbble</a>
+					</div>
+					<div class="paragraph">
+					  <h3>Cell Culture Reagents</h3>
+					  <p>I do not have a Dribbble account. Would any of you be so kind and send me an invite? </p>
+					</div>
+				  </li>
+				</ul>
+			  </div>
+            </div>
         </div>
     </section>
 	<!-------------------------------------------------- End Products  -------------------------------------------->	
@@ -632,203 +521,178 @@
 				</div>
 				<ul class="project-wrapper wow animated fadeInUp">
 					<li class="portfolio-item">
-						<img src="img/portfolio/bmg.jpg" class="img-responsive" alt="">
+						<img src="img/portfolio/bmg.jpg" class="img-responsive" alt="BMG LABTECH is a leading global developer and manufacturer of innovative, high-quality, and reliable microplate reader instrumentation.">
 						<figcaption class="mask">
 							<h4>BMG Labtech</h4>
-							<p>BMG LABTECH is a leading global...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/bmg.jpg"><u>Read</u></a></p>
+							<p>BMG LABTECH is a leading global...<a class="fancybox" title="BMG Labtech" data-fancybox-group="portfolio" href="img/portfolio/bmg1.jpg"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<li><a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/bmg.jpg"><i class="fa fa-search"></i></a></li>
+							<li><a class="fancybox" title="BMG Labtech" data-fancybox-group="portfolio" href="img/portfolio/bmg1.jpg"><i class="fa fa-search"></i></a></li>
 							<li><a href="http://www.bmglabtech.com/" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
-					
 					<li class="portfolio-item">
-						<img src="img/portfolio/IncuCyte.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h4>IncuCyte</h4>
-							<p>Enable real-time Live-Cell Imaging...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li-->
-							<li><a href="http://www.essenbioscience.com/en/" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					
-					<li class="portfolio-item">
-						<img src="img/portfolio/fluxion.gif" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h4>Fluxion</h4>
-							<p>Enable real-time Live-Cell Imaging...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li-->
-							<li><a href="http://fluxionbio.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					<li class="portfolio-item">
-						<img src="img/portfolio/bertin.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-						<figcaption class="mask">
-							<h4>Bertin</h4>
-							<p>A New cell imager is an all-in-one ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li-->
-							<li><a href="http://mygopcr.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					<li class="portfolio-item">
-						<img src="img/portfolio/axion.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/axion.jpg" class="img-responsive" alt="Through continuous innovation in microelectrode array (MEA) technology, Axion BioSystems enables new discoveries by providing access to biological electrical network behavior with industry-leading throughput.">
 						<figcaption class="mask">
 							<h4>Axion</h4>
-							<p>Through continuous innovation in ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Through continuous innovation in ...<a class="fancybox" title="Axion" data-fancybox-group="portfolio" href="img/portfolio/axion1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Axion" data-fancybox-group="works" href="img/portfolio/axion1.jpg"><i class="fa fa-search"></i></a></li>
 							<li><a href="https://www.axionbiosystems.com/" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/Axol.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/Axol.jpg" class="img-responsive" alt="Axol Bioscience specialize in the supply of human cell culture systems and custom services for disease modelling and drug discovery. Expertise includes iPSC generation, CRISPR-Cas9 gene editing, iPSC differentiation and custom cell and tissue sourcing.">
 						<figcaption class="mask">
 							<h4>Axol Bio</h4>
-							<p>Axol Bioscience specialize...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Axol Bioscience specialize...<a class="fancybox" title="Axol Bio" data-fancybox-group="portfolio" href="img/portfolio/Axol1.jpg"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Axol Bio" data-fancybox-group="works" href="img/portfolio/Axol1.jpg"><i class="fa fa-search"></i></a></li>
 							<li><a href="https://www.axolbio.com/page/homepage" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/Euro.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h4>Euro</h4>
-							<p>iLite technology is based upon a reporter ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li-->
-							<li><a href="https://www.axolbio.com/page/homepage" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					<li class="portfolio-item">
-						<img src="img/portfolio/AssayQuant.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h4>AssayQuant</h4>
-							<p>AssayQuant offers validated ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li-->
-							<li><a href="https://www.axolbio.com/page/homepage" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					<li class="portfolio-item">
-						<img src="img/portfolio/valitacell.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/valitacell.png" class="img-responsive" alt="Valitacell products allow users to select cells with greater regulatory confidence at the earliest possible stage during the drug development pathway. Valitacell is transforming the Cell Line Development process with simple, robust technologies.">
 						<figcaption class="mask">
 							<h4>Valita Cell</h4>
-							<p>Valitacell products allow users to select ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Valitacell products allow users to select ...<a class="fancybox" title="Valita Cell" data-fancybox-group="portfolio" href="img/portfolio/valitacell1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Valita Cell" href="img/portfolio/valitacell1.png" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
 							<li><a href="http://www.valitacell.com/" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/BioDot.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/BioDot.png" class="img-responsive" alt="For 20 years, BioDot has manufactured non-contact and quantitative fluid and powder dispensing systems for the industrial, life science, diagnostic, and medical product markets.">
 						<figcaption class="mask">
 							<h4>Bio Dot</h4>
-							<p>For 20 years, BioDot has manufactured ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>For 20 years, BioDot has manufactured ...<a class="fancybox" title="Bio Dot" data-fancybox-group="portfolio" href="img/portfolio/BioDot1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Bio Dot" href="img/portfolio/BioDot1.png" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
 							<li><a href="http://www.valitacell.com/" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/pss.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+						<img src="img/portfolio/pss.png" class="img-responsive" alt="Leaders in providing Magnetic bead based Nucleic Acid Extraction solutions">
 						<figcaption class="mask">
 							<h4>PSS</h4>
-							<p>Leaders in providing Magnetic bead ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Leaders in providing Magnetic bead ...<a class="fancybox" title="PSS" data-fancybox-group="portfolio" href="img/portfolio/pss1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="PSS" data-fancybox-group="works" href="img/portfolio/pss1.png"><i class="fa fa-search"></i></a></li>
 							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/primadiag.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/primadiag.jpg" class="img-responsive" alt="PRIMADIAG is an innovative French company developing robotic platforms for automation of a wide variety of Genomics Protocols including for PCR preparation, NGS Sample Prep, etc.">
 						<figcaption class="mask">
 							<h4>PRIMADIAG</h4>
-							<p>PRIMADIAG is an innovative French ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>PRIMADIAG is an innovative ...<a class="fancybox" title="PRIMADIAG" data-fancybox-group="portfolio" href="img/portfolio/primadiag1.jpg"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="PRIMADIAG" data-fancybox-group="works" href="img/portfolio/primadiag1.jpg"><i class="fa fa-search"></i></a></li>
 							<li><a href="http://primadiag.com/en/" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/Hain.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/Hain.png" class="img-responsive" alt="Hain Lifescience UK is a leading supplier of laboratory instruments for PCR, Real Time Quantitative PCR (QPCR), and Thermal Cycler Validation Systems (TAS).">
 						<figcaption class="mask">
 							<h4>Hain</h4>
-							<p>Hain Lifescience UK is a leading supplier ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Hain Lifescience UK is a leading supplier ...<a class="fancybox" title="Hain" data-fancybox-group="portfolio" href="img/portfolio/Hain.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="img/portfolio/item6.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Hain" data-fancybox-group="works" href="img/portfolio/Hain.png"><i class="fa fa-search"></i></a></li>
 							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/mygo.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-						<figcaption class="mask">
-							<h4>My Go Pro</h4>
-							<p>Provides products from bespoke ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
-						</figcaption>
-						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="img/portfolio/item4.jpg"><i class="fa fa-search"></i></a></li-->
-							<li><a href="http://mygopcr.com/" target="_blank"><i class="fa fa-link"></i></a></li>
-						</ul>
-					</li>
-					<li class="portfolio-item">
-						<img src="img/portfolio/aplegen.jpg" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/aplegen.jpg" class="img-responsive" alt="Gel Company develops, manufactures, and supplies including the Aplegen range of gel documentation Systems">
 						<figcaption class="mask">
 							<h4>Aplegen-Gel</h4>
-							<p>Gel Company develops, manufactures...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>Gel Company develops, manufactures...<a class="fancybox" title="Aplegen-Gel" data-fancybox-group="portfolio" href="img/portfolio/aplegen.jpg"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Aplegen-Gel" data-fancybox-group="works" href="img/portfolio/aplegen.jpg"><i class="fa fa-search"></i></a></li>
 							<li><a href="https://www.gelcompany.com/aplegen" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/celemics.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/celemics.png" class="img-responsive" alt="NGS Target Enrichment Panel manufacturer. Panel available for BRCA 1,2, Somatic Mutation and Hereditary Cancer">
 						<figcaption class="mask">
 							<h4>Celemics</h4>
-							<p>NGS Target Enrichment Panel ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<p>NGS Target Enrichment Panel ...<a class="fancybox" title="Celemics" data-fancybox-group="portfolio" href="img/portfolio/celemics1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="img/portfolio/item5.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Celemics" data-fancybox-group="works" href="img/portfolio/celemics1.png"><i class="fa fa-search"></i></a></li>
 							<li><a href="https://www.gelcompany.com/aplegen" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
 					<li class="portfolio-item">
-						<img src="img/portfolio/MammaTyper.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/Nanolive.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 						<figcaption class="mask">
-							<h4>MammaTyper</h4>
-							<p>Molecular in vitro diagnostic test ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<h4>Nanolive</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="Nanolive" data-fancybox-group="portfolio" href="img/portfolio/Nanolive1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Wall street" href="img/slider/banner.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li-->
-							<li><a href="http://www.mammatyper.com/" target="_blank"><i class="fa fa-link"></i></a></li>
+							<li><a class="fancybox" title="Nanolive" data-fancybox-group="works" href="img/portfolio/Nanolive1.png"><i class="fa fa-search"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
-					
 					<li class="portfolio-item">
-						<img src="img/portfolio/Transgenomic.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<img src="img/portfolio/Yokogawa.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
 						<figcaption class="mask">
-							<h4>Transgenomic</h4>
-							<p>Provides genetic discovery ...<a class="fancybox" title="Araund The world" data-fancybox-group="portfolio" href="img/portfolio/IncuCyte.png"><u>Read</u></a></p>
+							<h4>Yokogawa</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="Yokogawa" data-fancybox-group="portfolio" href="img/portfolio/Yokogawa1.png"><u>Read</u></a></p>
 						</figcaption>
 						<ul class="external">
-							<!--li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="img/portfolio/item3.jpg"><i class="fa fa-search"></i></a></li-->
+							<li><a class="fancybox" title="Yokogawa" data-fancybox-group="works" href="img/portfolio/Yokogawa1.png"><i class="fa fa-search"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</li>
+					<li class="portfolio-item">
+						<img src="img/portfolio/Cellink.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<figcaption class="mask">
+							<h4>Cellink</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="Cellink" data-fancybox-group="portfolio" href="img/portfolio/Cellink1.png"><u>Read</u></a></p>
+						</figcaption>
+						<ul class="external">
+							<li><a class="fancybox" title="Cellink" data-fancybox-group="works" href="img/portfolio/Cellink1.png"><i class="fa fa-search"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</li>
+					<li class="portfolio-item">
+						<img src="img/portfolio/Cellvis.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<figcaption class="mask">
+							<h4>Cellvis</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="Cellvis" data-fancybox-group="portfolio" href="img/portfolio/Cellvis.png"><u>Read</u></a></p>
+						</figcaption>
+						<ul class="external">
+							<li><a class="fancybox" title="Cellvis" data-fancybox-group="works" href="img/portfolio/Cellvis.png"><i class="fa fa-search"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</li>
+					<li class="portfolio-item">
+						<img src="img/portfolio/MBS.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<figcaption class="mask">
+							<h4>MBS</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="MBS" data-fancybox-group="portfolio" href="img/portfolio/MBS1.png"><u>Read</u></a></p>
+						</figcaption>
+						<ul class="external">
+							<li><a class="fancybox" title="MBS" data-fancybox-group="works" href="img/portfolio/MBS1.png"><i class="fa fa-search"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</li>
+					<li class="portfolio-item">
+						<img src="img/portfolio/HansaBioMed.png" class="img-responsive" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+						<figcaption class="mask">
+							<h4>Hansa BioMed</h4>
+							<p>Provides genetic discovery ...<a class="fancybox" title="Hansa BioMed" data-fancybox-group="portfolio" href="img/portfolio/HansaBioMed.png"><u>Read</u></a></p>
+						</figcaption>
+						<ul class="external">
+							<li><a class="fancybox" title="Hansa BioMed" data-fancybox-group="works" href="img/portfolio/HansaBioMed.png"><i class="fa fa-search"></i></a></li>
 							<li><a href="" target="_blank"><i class="fa fa-link"></i></a></li>
 						</ul>
 					</li>
@@ -963,11 +827,6 @@
 					  </div>
 				</div>
 			
-			<!--div class="item">
-            	<div class="">
-					<div align="center" id="mapMumbai" style="width:100%;height:200px"></div>
-				</div>
-			</div-->	
 			<div class="item">
 			<!--div class="row"-->
 				<div class="contact-details col-lg-12 text-center">
@@ -1094,1067 +953,22 @@
                         </li>
                     </ul>
                 </div>
-                <!--div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div-->
             </div>
         </div>
     </footer>
 	<!-------------------------------------------------- End Footer  ----------------------------------------------->	
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="top:60px">
-	<!-------------------------------------------------- Start Product Menu  ----------------------------------------------->	
-	<div class="dropdown" style="float:left;">
-	  <button class="dropbtn">Products</button>
-	  <div class="dropdown-content"  id="dropdown-content" style="left:15px;">
-			<div class="prodrow" style="left:10px">
-				<!-- Start Life Science-->
-					<div class="prodmenu" style="width:280px">
-						<div>
-							<div class="col-lg-12 text-center">
-								<h5>Discovery Biology</h5>
-							</div>
-							
-							<div>
-								<!--Instruments-->
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Multi-Mode Reader');">Multi-Mode Reader</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Microplate Nephelometry', 'Y');">Microplate Nephelometry</a></li>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Automated Electrophysiology');">Automated Electrophysiology (Patch Clamp)</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Live Cell Imaging');">Live Cell Imaging (Kinetic / Time Lapse)</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('MEA Electrophysiology');">MEA (Multi Electrode Array) Electrophysiology</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Cell Imager');">Cell Imager</a>
-								<!--Instruments-->
-								<!--Consumables, Reagents, Kits & Assays-->
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Human iPSC-Derived Cells');" style="color: #337ab7;">Human iPSC-Derived Cells</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Primary Cells');" style="color: #337ab7;">Primary Cells</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Live Cell Assays in-vivo Conditions');" style="color: #337ab7;">Live Cell Assays in-vivo Conditions</a>
-								<!--Consumables, Reagents, Kits & Assays-->
-							</div>
-						</div>
-					</div>
-					<!-- End Life Science-->
-					<!-- Start Molecular Diagnostics-->
-					<div class="prodmenu" style="width:280px">
-						<div>
-							<div class="col-lg-12 text-center">
-								<h5>Biologics & BioSimilars</h5>
-							</div>
-							<div>
-								<!--Consumables, Reagents, Kits & Assays--> 
-								
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('IgG quantification Assays');" style="color: #337ab7;">IgG quantification Assays</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Host Cell Identity, Stability and Performance');" style="color: #337ab7;">Host Cell Identity, Stability and Performance</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Sample Prep for LC-MS/MS');" style="color: #337ab7;">Sample Prep for LC-MS/MS</a>
-								<!--Consumables, Reagents, Kits & Assays--> 
-								<!--Instruments--> 						
-								<!--a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Single Cell Seeding');">Single Cell Seeding</a-->
-								<a href="#" onclick="display('Single Cell Seeding');">Single Cell Seeding</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Clonal Dilution');">Clonal Dilution</a>
-								<!--Instruments--> 
-								<!--Consumables, Reagents, Kits & Assays--> 
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('IgG quantification Assays');" style="color: #337ab7;">Cell Based Assays for Biological Drug Monitoring</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Host Cell Identity, Stability and Performance');" style="color: #337ab7;">ADCC Assays</a>
-								<!--Consumables, Reagents, Kits & Assays--> 
-							</div>
-						</div>
-					</div>
-						<!-- End Molecular Diagnostics-->
-						<!-- Start Life Science-->
-						<div class="prodmenu" style="width:280px">
-							<div>
-								<div class="col-lg-12 text-center">
-									<h5>Genomics, Molecular Biology / Diagnostics</h5>
-								</div>
-								<div>
-									<!--Instruments-->
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Thermal Cycler');">Thermal Cycler (PCR)</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Gel Documentation System');">Gel Documentation System</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Real Time Quantitative PCR System');">Real Time Quantitative PCR System</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display(Automated Nucleic Acid Extraction System');">Automated Nucleic Acid Extraction System</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Genomics Workstations');">Genomics Workstations</a>
-									<!--Instruments-->
-									<!--Consumables, Reagents, Kits & Assays-->
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('qPCR assays');" style="color: #337ab7;">qPCR assays</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('HLA high Resolution assays on NGS');" style="color: #337ab7;"> HLA high Resolution assays on NGS</a>
-									<!--Consumables, Reagents, Kits & Assays-->
-									<!--Instruments-->
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('NGS Sample Preparation System');">NGS Sample Preparation System</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Circulating Tumour Cells Isolation');">Circulating Tumour Cells (CTC) Isolation</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Genomics');">Genomics</a>
-									<!--Instruments-->
-									<!--Consumables, Reagents, Kits & Assays-->
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('BRCA NGS Panel');" style="color: #337ab7;">BRCA 1, 2 (Breast Cancer) NGS Panel</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Somatic Mutation Cancer NGS Kit');" style="color: #337ab7;">Somatic Mutation Cancer NGS Kit</a>
-									<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Hereditary Cancer NGS Kit');" style="color: #337ab7;">Hereditary Cancer NGS Kit</a>
-									<!--Consumables, Reagents, Kits & Assays-->
-								</div>
-							</div>
-						</div>
-						<!-- End Life Science-->
-						<!-- Start Molecular Diagnostics-->
-					<div class="prodmenu" style="width:280px">
-						<div>
-							<div class="col-lg-12 text-center">
-								<h5>Rapid Kit Manufacturing & Biosensors</h5>
-							</div>
-							<div>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Dispensing Platforms');" style="color: #337ab7;">Dispensing Platforms</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Guillotine Cutter');" style="color: #337ab7;">Guillotine Cutter</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Lamination');" style="color: #337ab7;">Lamination</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Custom Biosensor Manufacturing');" style="color: #337ab7;">Custom Biosensor Manufacturing</a>
-								<a href="#" class="portfolio-link" data-toggle="modal" onclick="display('Glucose Strips Manufacturing');" style="color: #337ab7;">Glucose Strips Manufacturing</a>
-							</div>
-							</div>
-						</div>
-				</div>
-	  </div>
-	</div>
-	<!-------------------------------------------------- End Product Menu  ----------------------------------------------->	
-        <div class="modal-content">
-			<!--div id="banner_image">
-					<div id="slider-wrapper">        
-						<div id="slider" class="nivoSlider">
-							<img src="img/prodslider/home_1.jpg" alt="" />
-							<img src="img/prodslider/home_2.jpg" alt="" />
-						</div>
-					</div>
-			</div-->
-			<div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-			<div class="container">
-				<!--close banner_image-->	
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <div class="modal-body" id="modal-body" >
-							<div id="Single Cell Seeding" style="display:none"><h5>Single Cell Seeding</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Technology">Technology</a><br/>
-									<a class="sideprodlist" href="#Cell Line Development">Cell Line Development</a><br/>
-									<a class="sideprodlist" href="#Single Cell Genomics">Single Cell Genomics</a><br/>
-								</div>
-
-								<div id="Technology">
-									<h4 class="prodhead">Technology</h4>
-									<p class="prodtext">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Cell Line Development">
-									<h4 class="prodhead">Cell Line Development</h4>
-									<p class="prodtext">"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Single Cell Genomics">
-									<h4 class="prodhead">Single Cell Genomics</h4>
-									<p class="prodtext">He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-							</div>	
-							<div id="Clonal Dilution" style="display:none">
-								<h5>Clonal Dilution</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#IncuCyte">IncuCyte</a><br/>
-									<a class="sideprodlist" href="#IncuCyteFeatures">Features</a><br/>
-									<a class="sideprodlist" href="#IncuCyteApplication">Application</a>
-								</div>
-								<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								<div id="IncuCyte">
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="IncuCyteFeatures">
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="IncuCyteApplication">
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>			
-							</div>	
-							<div id="IgG quantification Assays" style="display:none">
-								<h5>IgG quantification Assays</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Technology">Technology</a><br/>
-									<a class="sideprodlist" href="#ValitaTiter">ValitaTiter</a><br/>
-									<a class="sideprodlist" href="#ValitaTiterHS">Valita Titer HS</a><br/>
-								</div>
-
-								<div id="Technology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="ValitaTiter">
-									<h4>ValitaTiter</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="ValitaTiterHS">
-									<h4>Valita Titer HS</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>	
-							<div id="Host Cell Identity, Stability and Performance" style="display:none">
-								<h5>Host Cell Identity, Stability and Performance</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Technology">Technology</a><br/>
-									<a class="sideprodlist" href="#Valita ID">Valita ID</a><br/>
-									<a class="sideprodlist" href="#Valita QC">Valita QC</a><br/>
-									<a class="sideprodlist" href="#Valita STABILITY">Valita STABILITY</a><br/>
-									<a class="sideprodlist" href="#Valita PREDICT">Valita PREDICT</a><br/>
-								</div>
-
-								<div id="Technology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Valita ID">
-									<h4>Valita ID</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Valita QC">
-									<h4>Valita QC</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Valita STABILITY">
-									<h4>Valita STABILITY</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-								<div id="Valita PREDICT">
-									<h4>Valita PREDICT</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>	
-							<div id="Sample Prep for LC-MS/MS" style="display:none">
-								<h5>Sample Prep for LC-MS/MS<h5>
-							</div>
-							
-							<div id="Multi-Mode Reader" style="display:none">
-								<h3>Multi-Mode Reader</h3>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#SPECTRAstarNano">SPECTRAstar Nano</a><br/>
-									<a class="sideprodlist" href="#FLUOstar Omega">FLUOstar Omega</a><br/>
-									<a class="sideprodlist" href="#POLARstar Omega">POLARstar Omega</a><br/>
-									<a class="sideprodlist" href="#LUMIstar Omega">LUMIstar Omega</a><br/>
-									<a class="sideprodlist" href="#CLARIOstar">CLARIOstar</a><br/>
-									<a class="sideprodlist" href="#PHERAstarFSX">PHERAstar FSX</a><br/>
-									<a class="sideprodlist" href="#NEPHELOstar Plus">NEPHELOstar Plus</a>
-								</div>
-									<div id="SPECTRAstarNano" class="prodsec" onmouseover="chbg('red')" onmouseout="chbg('white')">
-										<h4 class="prodhead" style="color: #337ab7;">SPECTROstar Nano</h4>
-										<h5 class="prodhead">Ultra-fast, full UV/Vis spectrum absorbance microplate reader with cuvette port</h5>
-										<p class="prodtext">BMG LABTECH’s innovative absorbance microplate reader has the flexibility to perform assays quickly and easily in both microplates or via the built-in cuvette port. This spectrometer-based absorbance microplate reader captures a full UV-visible spectrum in less than 1 sec/well. Its speed, simple push button operation, and capacity to store individual assay protocols make the SPECTROstar® Nano the ideal microplate reader for absorbance measurements.</p>
-										<h6 class="prodtext"><b>Ultra-fast determination of DNA, RNA, ELISA, and more.</b></h6>
-										<img style ="width:500px;height:300px;"src="img/prod/SPECTROstarNano.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The SPECTROstar Nano is equipped with BMG LABTECH’s ultra-fast UV/Vis spectrometer, which allows users to measure full-spectrum absorbance (220 – 1000 nm) in less than 1 second per well. It is the ideal instrument to read all absorbance assays in a microplate or cuvette – with many common assay protocols predefined and available at the click of a mouse.</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li align="left">Full-spectrum UV/Vis absorbance measurements in less than 1 second</li>
-											<li>Measurement in up to 1536-well microplate format</li>
-											<li>Integrated cuvette port for individual samples</li>
-											<li>Linear, orbital and double-orbital shaking as well as uniform incubation up to 45 °C</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-											<li>Compatible with LVis Plate for low volume samples (down to 2µl)</li>
-										</ul>	
-									</div>
-									<br/>
-									<div id="FLUOstar Omega" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">FLUOstar Omega</h4>
-										<h5 class="prodhead">Filter-based multi-mode microplate reader</h5>
-										<p class="prodtext">SelectScience Best Drug Discovery Product 2010, the FLUOstar® Omega is a multimode microplate reader with five detection modes. It utilizes an ultra-fast UV/Vis spectrometer or filters for absorbance as well as highly sensitive filters for all other detection modes. The FLUOstar Omega is the ideal plate reader for life science applications.</p>
-										<p class="prodtext"><b>The upgradeable high performance life science microplate reader.</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/FLUOstarOmega.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The FLUOstar Omega is a versatile multi-mode microplate reader for five detection modes: fluorescence intensity (including FRET), luminescence (including BRET), UV/Vis absorbance, time-resolved fluorescence (including TR-FRET), and AlphaScreen®/AlphaLISA®.</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>Full-spectrum UV/Vis absorbance measurements in less than 1 second or filter-based absorbance</li>
-											<li>Measurement in up to 384-well microplate format</li>
-											<li>Top and bottom reading</li>
-											<li>Plate shaking and uniform incubation up to 45 °C or 65 °C</li>
-											<li>Well-scanning and real-time kinetic monitoring</li>
-											<li>High-precision injectors with simultaneous reagent injection and detection</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-											<li>Compatible with LVis Plate and Stacker</li>
-										</ul>
-									</div>
-									<br/>
-									<div id="POLARstar Omega" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">POLARstar Omega</h4>
-										<h5 class="prodhead">Multi-mode microplate reader with Simultaneous Dual Emission - including fluorescence polarization</h5>
-										<p class="prodtext">The POLARstar® Omega is the fully-equipped Omega-series microplate reader, offering all the features of a FLUOstar Omega, and in addition fluorescence polarization. Equipped with BMG LABTECH’s ultra-fast UV/Vis spectrometer and Simultaneous Dual Emission detection, the POLARstar Omega represents a great combination of performance and flexibility for life science applications.</p>
-										<p class="prodtext"><b>The high performance multi-mode reader for life science applications.</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/POLARstarOmega.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The POLARstar Omega is a versatile, filter-based multi-mode microplate reader with six detection modes: fluorescence intensity (including FRET), fluorescence polarization, luminescence (including BRET), UV/Vis absorbance, time-resolved fluorescence (including TR-FRET), and AlphaScreen®/AlphaLISA®. </p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>Two matched PMTs for Simultaneous Dual Emission detection</li>
-											<li>Full-spectrum UV/Vis absorbance measurements in less than 1 second</li>
-											<li>Measurement in up to 384-well microplate format</li>
-											<li>Top and bottom reading</li>
-											<li>Plate shaking and uniform incubation up to 45 °C or 65 °C</li>
-											<li>Well-scanning and real-time kinetic monitoring</li>
-											<li>High-precision injectors with simultaneous reagent injection and detection</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-											<li>Compatible with LVis Plate and Stacker</li>
-										</ul>
-									</div>
-									<br/>									
-									<div id="LUMIstar Omega" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">LUMIstar Omega</h4>
-										<h5 class="prodhead">Dedicated microplate luminometer - upgradeable to a multi-mode plate reader</h5>
-										<p class="prodtext">The LUMIstar® Omega is BMG LABTECH's powerful dedicated luminescence microplate reader, providing highly sensitive flash and glow assay readings. This DLReady-certified microplate reader can also come equipped with Simultaneous Dual Emission for BRET applications, and can be further upgraded to a multi-mode reader.</p>
-										<p class="prodtext"><b>The high performance, dedicated luminescence microplate reader.</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/LUMIstarOmega.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The LUMIstar Omega is a dedicated reader for luminescence measurements, including BRET. The LUMIstar Omega provides highly sensitive readings of all luminescence applications in end-point and kinetic assays. Moreover, a built-in filter wheel and the optional Simultaneous Dual Emission detection make multiple wavelength detection and BRET applications possible.</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>Dedicated luminescence detection for flash and glow assays</li>
-											<li>Measurement in up to 384-well microplate format</li>
-											<li>Top and bottom reading</li>
-											<li>Plate shaking and uniform incubation up to 45 °C or 65 °C</li>
-											<li>Well-scanning and real-time kinetic monitoring</li>
-											<li>High-precision injectors with simultaneous reagent injection and detection</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-											<li>Stacker compatible</li>
-										</ul>
-									</div>
-									<br/>
-									<div id="CLARIOstar" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">CLARIOstar</h4>
-										<h5 class="prodhead">Versatile, high-performance microplate reader with monochromators, spectrometer, and filters</h5>
-										<p class="prodtext">The CLARIOstar® is BMG LABTECH’s most flexible microplate reader, equipped with revolutionary LVF monochromator technology. Thanks to the triple technology, monochromators, filters, and spectrometer, it does not compromise on sensitivity or flexibility. As well as its high performance in all detection modes, the CLARIOstar’s versatility also makes it ideal for assay development.</p>
-										<p class="prodtext"><b>Anything is possible. Any wavelength. Any bandwidth. Any assay.</b></p>
-										<p class="prodtext"><b>NEW: Now available with an Atmospheric Control Unit for all your live cell-based assays!</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/CLARIOstar.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The CLARIOstar® is a multimode microplate reader with advanced LVF Monochromators™, highly sensitive filters, and an ultra-fast UV/Vis spectrometer. It is a modular microplate reader with up to eight different detection modes: fluorescence intensity (including FRET), fluorescence polarization, luminescence (including BRET), UV/Vis absorbance, time-resolved fluorescence (including TR-FRET), and AlphaScreen®/AlphaLISA®</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>Increased sensitivity over conventional monochromators</li>
-											<li>Continuously adjustable bandwidths (8 to 100 nm) and wavelengths (320 to 850 nm)</li>
-											<li>Combined use of LVF monochromators™ and filters in the same measurement</li>
-											<li>Full-spectrum UV/Vis absorbance measurements in less than 1 second</li>
-											<li>Dedicated, high-energy laser for AlphaScreen®/AlphaLISA®/AlphaPlexTM</li>
-											<li>Automated focal Z-height adjustment for top and bottom readings</li>
-											<li>Includes multi-user control and MARS data analysis software with integrated fluorophore library</li>
-											<li>NEW: ACU compatible for O2 and CO2 control</li>
-											<li>Compatible with LVis Plate and stacker</li>
-										</ul>
-									</div>		
-									<br/>
-									<div id="PHERAstarFSX" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">PHERAstar FSX</h4>
-										<h5 class="prodhead">The most sensitive high-throughput screening plate reader on the market</h5>
-										<p class="prodtext">The PHERAstar® FSX is our latest, most sensitive multi-mode reader for high-throughput screening, combining this sensitivity with fast read times. Thanks to the unique Optic Module system, Simultaneous Dual Emission, UV/Vis spectrometer, and dedicated AlphaScreen® and TRF Lasers, whatever your application, the PHERAstar FSX will perform it with ease and speed, even in 3456-well microplates.</p>
-										<p class="prodtext"><b>The new gold standard for High-Throughput Screening.</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/PHERAstarFSX.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">Never worry about what dichroic or filter is installed in your PHERAstar FSX. Easy-to-handle, assay-optimized Optic Modules contain application-specific filters, mirrors, dichroics, and/or polarizers, and are automatically recognized by the reader. In addition, the PHERAstar FSX is equipped with four matched and assay-optimized photomultiplier tubes (PMTs) that are automatically selected for each detection mode, as well as for Simultaneous Dual Emission.</p>
-										<p class="prodtext">For HTS automation purposes, the PHERAstar FSX offers improved robotic integration capabilities, multi-user control and MARS data analysis software with included digital signature and FDA 21 CFR part 11 compliance, and can be equipped with BMG LABTECH's Stacker.</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>The most sensitive reader in Fluorescence Intensity and Polarization</li>
-											<li>Fastest read times with Simultaneous Dual Emission, including for Alpha Technology</li>
-											<li>9 decades luminescence dynamic range</li>
-											<li>Full absorbance spectra from 220-1000 nm in less than 1 second per well</li>
-											<li>Top and bottom reading with focal height adjustment (0.1 mm z-height)</li>
-											<li>All microplate formats up to 3456-well</li>
-											<li>New generation TRF laser for highest performance</li>
-											<li>Dedicated AlphaScreen®/AlphaLISA®/AlphaPlexTM laser</li>
-											<li>Advanced well scanning with up to 900 data points per well</li>
-											<li>Two onboard, high-precision injectors with simultaneous reagent injection and detection</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-											<li>Stacker and robot compatibility</li>
-										</ul>
-									</div>
-									<br/>
-									<div id="NEPHELOstar Plus" class="prodsec">
-										<h4 class="prodhead" style="color: #337ab7;">NEPHELOstar Plus</h4>
-										<h5 class="prodhead">Laser-based microplate nephelometer for light-scattering and turbidity measurements</h5>
-										<p class="prodtext">The world’s first and only laser-based microplate nephelometer was developed to meet high-throughput demands for fast compound solubility screens. The NEPHELOstar® Plusdetects insoluble particles in liquid samples by measuring forward scattered light and can be used for turbidity measurements, drug solubility screening, protein binding kinetics, microbial growth, and petroleum process control.</p>
-										<p class="prodtext"><b>The first and only laser-based microplate nephelometer.</b></p>
-										<img style ="width:500px;height:300px;"src="img/prod/NEPHELOstarPlus.jpg" alt="slider">
-										<h5 class="prodhead">Details</h5>
-										<p class="prodtext">The NEPHELOstar Plus is a microplate nephelometer with a high-intensity laser diode. It can be up to thirty times more sensitive than traditional transmission optical density readers that measure the reduction in direct light passing through a sample well. Thanks to its speed, flexibility and performance, the NEPHELOstar Plus allows more applications to be adapted to microplate-based laser nephelometry than ever before.</p>
-										<h5 class="prodhead">Features</h5>
-										<ul class="prodtext">
-											<li>Adjustable laser intensity and beam diameter for best performance</li>
-											<li>Measurement in up to 384-well microplate format</li>
-											<li>Linear, orbital and double-orbital shaking as well as uniform incubation up to 45 °C</li>
-											<li>High-precision injectors with simultaneous reagent injection and detection</li>
-											<li>Stacker and robot compatibility</li>
-											<li>Includes multi-user control and MARS data analysis software</li>
-										</ul>
-									</div>
-							</div>
-							<div id="Microplate Nephelometry" style="display:none">
-								<h5>Microplate Nephelometry<h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#NEPHELOstar">NEPHELOstar</a><br/>
-									<a class="sideprodlist" href="#Detection">Detection</a><br/>
-									<a class="sideprodlist" href="#Applications">Applications</a>
-								</div>
-								<div id="NEPHELOstar">
-									<h4>NEPHELOstar</h4>
-									<h5>Laser-based microplate nephelometer for light-scattering and turbidity measurements</h5>
-									<p>The world’s first and only laser-based microplate nephelometer was developed to meet high-throughput demands for fast compound solubility screens. The NEPHELOstar® Plusdetects insoluble particles in liquid samples by measuring forward scattered light and can be used for turbidity measurements, drug solubility screening, protein binding kinetics, microbial growth, and petroleum process control.</p>
-									<p><b>The first and only laser-based microplate nephelometer.</b></p>
-									<h5>Details</h5>
-									<p>The NEPHELOstar Plus is a microplate nephelometer with a high-intensity laser diode. It can be up to thirty times more sensitive than traditional transmission optical density readers that measure the reduction in direct light passing through a sample well. Thanks to its speed, flexibility and performance, the NEPHELOstar Plus allows more applications to be adapted to microplate-based laser nephelometry than ever before.</p>
-									<h5>Features</h5>
-									<ul>
-										<li>Adjustable laser intensity and beam diameter for best performance</li>
-										<li>Measurement in up to 384-well microplate format</li>
-										<li>Linear, orbital and double-orbital shaking as well as uniform incubation up to 45 °C</li>
-										<li>High-precision injectors with simultaneous reagent injection and detection</li>
-										<li>Stacker and robot compatibility</li>
-										<li>Includes multi-user control and MARS data analysis software</li>
-									</ul>
-								</div>
-								<div id="Detection">
-									<h4>Detection</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Applications">
-									<h4>Applications</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>								
-							</div>
-							<div id="Automated Electrophysiology" style="display:none">
-								<h5>Automated Electrophysiology</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#IonFluxFamily">IonFlux Family</a><br/>
-									<a class="sideprodlist" href="#Ionflux16">Ionflux 16</a><br/>
-									<a class="sideprodlist" href="#IonFluxHT">IonFlux HT</a>
-									<a class="sideprodlist" href="#Applications">Applications HT</a>
-								</div>
-
-								<div id="IonFluxFamily">
-									<h4>IonFlux Family</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Ionflux16">
-									<h4>Ionflux 16</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="IonFluxHT">
-									<h4>IonFlux HT</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Applications">
-									<h4>Applications</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-							</div>
-							<div id="Live Cell Imaging" style="display:none">
-								<h5>Live Cell Imaging</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#IncuCyteSystem">IncuCyte System</a><br/>
-									<a class="sideprodlist" href="#Features">Features</a><br/>
-									<a class="sideprodlist" href="#Applications">Applications</a>
-								</div>
-
-								<div id="IncuCyteSystem">
-									<h4>IncuCyte System</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Features">
-									<h4>Features</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Applications">
-									<h4>Applications</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="MEA Electrophysiology" style="display:none">
-								<h5>MEA Electrophysiology</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Musesingle-well">Muse single-well</a><br/>
-									<a class="sideprodlist" href="#Maestromulti-well">Maestro multi-well</a><br/>
-								</div>
-
-								<div id="Musesingle-well">
-									<h4>Muse single-well</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Maestromulti-well">
-									<h4>Maestro multi-well</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>
-							</div>
-							<div id="Human iPSC-Derived Cells" style="display:none"><h5>Human iPSC-Derived Cells</h5>
-							<object width="800" height="1000" data="pdf\Primary_cells.pdf"></object>
-							</div>
-							<div id="Primary Cells" style="display:none"><h5>Primary Cells</h5></div>
-							<div id="Live Cell Assays in-vivo Conditions" style="display:none">
-								<h5>Live Cell Assays in-vivo Conditions</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Biofluxsystems">Bioflux systems</a><br/>
-									<a class="sideprodlist" href="#Bioflux200">Bioflux 200</a><br/>
-									<a class="sideprodlist" href="#Bioflux1000Z">Bioflux 1000Z</a><br/>
-									<a class="sideprodlist" href="#BiofluxEZ">Bioflux EZ</a><br/>
-								</div>
-
-								<div id="Biofluxsystems">
-									<h4>Bioflux systems</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Bioflux200">
-									<h4>Bioflux 200</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Bioflux1000Z">
-									<h4>Bioflux 1000Z</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Bioflux EZ">
-									<h4>BiofluxEZ</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="Thermal Cycler" style="display:none">
-								<h5>Thermal Cycler</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#QCycler96">Q Cycler 96</a><br/>
-									<a class="sideprodlist" href="#QSat96">Q Sat 96</a><br/>
-									<a class="sideprodlist" href="#Qsat24">Q sat 24</a><br/>
-								</div>
-
-								<div id="QCycler96">
-									<h4>Q Cycler 96</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="QSat96">
-									<h4>Q Sat 96</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Qsat24">
-									<h4>Q sat 24</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="Gel Documentation System" style="display:none">
-								<h5>Gel Documentation System</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Imagel">Imagel</a><br/>
-									<a class="sideprodlist" href="#Omega Fluor302">Omega Fluor 302</a><br/>
-									<a class="sideprodlist" href="#Omega Fluor365">Omega Fluor 365</a><br/>
-									<a class="sideprodlist" href="#Omega Fluor Plus302">Omega Fluor Plus 302</a><br/>
-									<a class="sideprodlist" href="#Omega Fluor Plus365">Omega Fluor Plus 365</a><br/>
-									<a class="sideprodlist" href="#Omega Lum G">Omega Lum G</a><br/>
-									<a class="sideprodlist" href="#Omega Lum C">Omega Lum C</a><br/>
-									<a class="sideprodlist" href="#Omega Lum W">Omega Lum W</a><br/>
-								</div>
-
-								<div id="Imagel">
-									<h4>Imagel</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Omega Fluor302">
-									<h4>Omega Fluor™ Gel Documentation System, 302 nm 81-12520-00</h4>
-									<p><b>Entry-level gel imaging system with exceptional performance and safety features.</b></p>
-									<p>The Omega Fluor is an entry level gel imaging system that comes standard with the basic components and exceptional safety features for DNA and protein gel imaging. With a single wavelength UV drawer that is fully integrated into a light-tight cabinet, gone are the days of modular hoods sitting awkwardly on top of light boxes. A UV-safety switch, auto UV-shutoff, and a UV-blocking viewport are standard features while a high resolution camera and focus free lens with SmartCapture Technology™ maintains the integrity of your samples with exceptional imaging performance.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Hands-free SmartCapture Technology™</b></p>
-									<ul>
-										<li>No camera or focus adjustment required</li>
-									</ul>
-									<p><b>Application flexibility</b></p>
-									<ul>
-										<li>Multiple excitation sources for nucleotide and protein stains</li>
-										<li>Absorbance for Ponceau-stained membranes or petri dishes</li>
-									</ul>
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>4,096 grayscales with 5 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 24.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - UV Imaging, White Light Imaging and Blue Light Imaging</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 5MP scientific grade CCD camera with a fixed lens, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Intuitive Omega Fluor Image Capture Software, Windows compatible</p>
-									<p><b>Excitation</b> - Trans-UV (302 wavelength), Trans-white conversion screen (optional), Trans-blue (optional), Epi-white LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-								</div>	
-								<div id="Omega Fluor Plus302">
-									<h4>Omega Fluor™ Plus Gel Documentation System, 302 nm 81-12521-00</h4>
-									<p><b>Power and performance in an advanced yet compact system.</b></p>
-									<p>Boosted by a high resolution camera and hands free SmartCapture Technology™, the Omega Fluor Plus has everything you need for exceptional DNA and protein imaging, including the tablet! Switching between applications is a breeze with standard features such as multiple light sources and a multi-position filter wheel. Optional accessories and analysis software complete the imaging solution.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Hands-free SmartCapture Technology™</b></p>
-									<ul>
-										<li>No camera or focus adjustment required</li>
-									</ul>
-									<p></b>Application flexibility</b></p>
-									<ul>
-										<li>Multiple excitation sources for nucleotide and protein stains</li>
-										<li>Absorbance for Ponceau-stained membranes or petri dishes</li>
-									</ul>
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>4,096 grayscales with 5 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 24.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - UV Imaging, White Light Imaging and Blue Light Imaging</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 5MP scientific grade CCD camera with a fixed lens, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Intuitive Omega Fluor Plus Capture Software, Optional Image Analysis Software</p>
-									<p><b>Excitation</b> - Trans-UV (302 nm wavelength), Trans-white conversion screen (optional), Epi-white LEDs, Epi-blue LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-								</div>	
-								<div id="Omega Fluor365">
-									<h4>Omega Fluor™ Gel Documentation System, 365 nm 81-12530-00</h4>
-									<p><b>Entry-level gel imaging system with exceptional performance and safety features.</b></p>
-									<p>The Omega Fluor is an entry level gel imaging system that comes standard with the basic components and exceptional safety features for DNA and protein gel imaging. With a single wavelength UV drawer that is fully integrated into a light-tight cabinet, gone are the days of modular hoods sitting awkwardly on top of light boxes. A UV-safety switch, auto UV-shutoff, and a UV-blocking viewport are standard features while a high resolution camera and focus free lens with SmartCapture Technology™ maintains the integrity of your samples with exceptional imaging performance.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Hands-free SmartCapture Technology™</b></p>
-									<ul>
-										<li>No camera or focus adjustment required
-									<p><b>Application flexibility</b></p>
-									<ul>
-										<li>Multiple excitation sources for nucleotide and protein stains</li>
-										<li>Absorbance for Ponceau-stained membranes or petri dishes</li>
-									</ul>	
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>4,096 grayscales with 5 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>	
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 24.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - UV Imaging, White Light Imaging and Blue Light Imaging</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 5MP scientific grade CCD camera with a fixed lens, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Intuitive Omega Fluor Image Capture Software, Windows compatible</p>
-									<p><b>Excitation</b> - Trans-UV (365 nm wavelength), Trans-white conversion screen (optional), Trans-blue (optional), Epi-white LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-								</div>
-								<div id="Omega Fluor Plus365">
-									<h4>Omega Fluor™ Plus Gel Documentation System, 365 nm 81-12531-00</h4>
-									<p><b>Power and performance in an advanced yet compact system.</b></p>
-									<p>Boosted by a high resolution camera and hands free SmartCapture Technology™, the Omega Fluor Plus has everything you need for exceptional DNA and protein imaging, including the tablet! Switching between applications is a breeze with standard features such as multiple light sources and a multi-position filter wheel. Optional accessories and analysis software complete the imaging solution.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Hands-free SmartCapture Technology™</b></p>
-									<ul>
-										<li>No camera or focus adjustment required</li>
-									</ul>
-									<p><b>Application flexibility</b></p>
-									<ul>
-										<li>Multiple excitation sources for nucleotide and protein stains</li>
-										<li>Absorbance for Ponceau-stained membranes or petri dishes</li>
-									</ul>
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>4,096 grayscales with 5 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 24.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - UV Imaging, White Light Imaging and Blue Light Imaging</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 5MP scientific grade CCD camera with a fixed lens, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Intuitive Omega Fluor Plus Capture Software, Optional Image Analysis Software</p>
-									<p><b>Excitation</b> - Trans-UV (365 nm wavelength), Trans-white conversion scren (optional), Epi-white LEDs, Epi-blue LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-
-								</div>	
-								<div id="Omega Lum G">
-									<h4>Omega Lum™ G Imaging System 81-12100-00</h4>
-									<p><b>Get your data and go!</b></p>
-									<p>With the Omega Lum™ G snap an image of your gel or blot, get your data and go! Our SmartCapture Technology™ simplifies imaging, so all you need is to pick your application, exposure, and capture your image. You will have a publication-ready image in seconds, and can get back to what’s important – your work.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Fully automated SmartCapture Technology™</b></p>
-									<ul>
-										<li>No filter selection or focus adjustment required</li>
-									</ul>
-									<p><b>Imaging flexibility</b></p>
-									<ul>
-										<li>Chemiluminescence for Western, Northern, and Southern blots</li>
-										<li>Multiple excitation sources for nucleotide and protein stains</li>
-										<li>Absorbance for Ponceau-stained membranes or petri dishes</li>
-									</ul>
-									<p><b>Publication-quality images</b></p>									
-									<ul>
-										<li>65,536 grayscales with over 6 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 20.5 x 25.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - Chemiluminescence, UV Fluorescence, Colorimetry, Densitometry, Gel Documentation</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 6MP scientific grade CCD camera with a fixed lens, -30o C ambient cooled camera, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Customizable Omega Lum G Image Capture Software, UltraQuant Analysis Software</p>
-									<p><b>Excitation</b> - Trans-UV (dual wavelength), Trans-white conversion screen, Epi-white LEDs, Epi-blue LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-								</div>
-								<div id="Omega Lum C">
-									<h4>Omega Lum™ C Imaging System 81-12110-00</h4>
-									<p><b>Make your data work for you!</b></p>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-									<p>Quickly grab quantitative images of your blots or gels right on your bench with the Omega Lum C. With its broad dynamic range and sensitive detection, you can’t get better data from your experiments anywhere else. And it is so easy – you’ll never want to use film again.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>Quantify, not just qualify</b></p>
-									<ul>
-										<li>Wide dynamic range for accurate quantification of low and high abundant samples in the same image</li>
-										<li>Optimized camera and optics design for highest sensitivity and signal capture</li>
-									</ul>
-									<p><b>Fully automated western blot and gel imaging</b></p>
-									<ul>
-										<li>SmartCapture Technology™ eliminates filter selection and focus adjustment</li>
-										<li>Image your chemiluminescent blots easier than film</li>
-									</ul>
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>65,536 grayscales with over 8 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 15.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - Chemiluminescence, UV Fluorescence, Colorimetry, Densitometry, Gel Documentation</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 8.4MP scientific grade CCD camera with auto focus F0.95 lens, -50o C ambient cooled camera, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Customizable Omega Lum G Image Capture Software, UltraQuant Analysis Software</p>
-									<p><b>Excitation</b> - Trans-UV (dual wavelength), Trans-white conversion screen, Epi-white LEDs, Epi-blue LEDs</p>
-									<p><b>Emission</b> - Orange (included), Blue, Green, Red (optional)</p>
-								</div>
-								<div id="Omega Lum W">
-									<h4>Omega Lum™ W Imaging System 81-12120-00</h4>
-									<p><b>A new perspective on Western Blot imaging</b></p>
-									<p>The Omega Lum W offers all the advantages of the Omega Lum C, plus the ability to do multiplex imaging in the Red, Green, and Blue Channels. Image multiple proteins simultaneously without having to strip and re-probe, or get better resolution of closely resolved bands. All with Aplegen's excellent performance, small footprint and economical pricing.</p>
-									<h5>Features & Benefits</h5>
-									<p><b>3 channel capability for Multiplex imaging</b></p>
-									<p><b>Quantify, not just qualify</b></p>
-									<ul>
-										<li>Wide dynamic range for accurate quantification of low and high abundant samples in the same image</li>
-										<li>Optimized camera and optics design for highest sensitivity and signal capture</li>
-									</ul>
-									<p><b>Fully automated western blot and gel imaging</b></p>
-									<ul>
-										<li>SmartCapture Technology™ eliminates filter selection and focus adjustment</li>
-										<li>Image your chemiluminescent blots easier than film</li>
-									</ul>	
-									<p><b>Publication-quality images</b></p>
-									<ul>
-										<li>65,536 grayscales with over 8 million pixels for excellent resolution</li>
-										<li>Universal TIFF and JPEG file formats</li>
-									</ul>
-									<p><b>Small footprint, large format</b></p>
-									<ul>
-										<li>Compact footprint fits right on your bench top</li>
-										<li>Accommodates large format protein and nucleotide gels (i.e. PROTEAN II, Subcell 96)</li>
-										<li>Imaging Area: up to 15.0 x 20.0 cm</li>
-									</ul>
-									<h5>Specifications</h5>
-									<p><b>Applications</b> - Chemiluminescence, UV Fluorescence, Colorimetry, Densitometry, RGB Multiplex Imaging, Gel Documentation</p>
-									<p><b>Dye Compatibility</b> - SYBR® Safe, SYBR family, Ethidium Bromide, Coomassie Blue, Silver Stain, AdvanStain Scarlet, SYPRO® Ruby, Oriole™ and more</p>
-									<p><b>Hardware</b> - 8.4MP scientific grade CCD camera with auto focus F0.95 lens, 50o C ambient cooled camera, integrated tablet with pre-installed Image Capture Software</p>
-									<p><b>Software</b> - Customizable Omega Lum W Image Capture Software, UltraQuant Analysis Software, Total Lab Analysis Software</p>
-									<p><b>Excitation</b> - Trans-UV (dual wavelength), Trans-white conversion screen, Epi-white LEDs, Epi-blue LEDs, EPI LEDs at 457, 530 and 628nm</p>
-									<p><b>Emission</b> - Orange, Red, Green and Blue filters (Included)</p>
-								</div>	
-							</div>
-							<div id="Real Time Quantitative PCR System" style="display:none"><h5>Real Time Quantitative PCR System</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#NucleicTechnology">Technology</a><br/>
-									<!--a class="sideprodlist" href="#12GC">12GC</a><br/>
-									<a class="sideprodlist" href="#Kits">Kits</a><br/-->
-								</div>
-
-								<div id="NucleicTechnology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<!--div id="12GC">
-									<h4>12GC</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Kits">
-									<h4>Kits</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div-->
-							</div>
-							<div id="Automated Nucleic Acid Extraction System" style="display:none"><h5>Automated Nucleic Acid Extraction System</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#NucleicTechnology">Technology</a><br/>
-									<a class="sideprodlist" href="#12GC">12GC</a><br/>
-									<a class="sideprodlist" href="#Kits">Kits</a><br/>
-								</div>
-
-								<div id="NucleicTechnology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="12GC">
-									<h4>12GC</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Kits">
-									<h4>Kits</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<!--div id="Low Volume Spectrophotometer" style="display:none">Low Volume Spectrophotometer</div-->
-							<div id="Genomics Workstations" style="display:none"><h5>Genomics Workstations</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#GenomicsTechnology">Technology</a><br/>
-									<a class="sideprodlist" href="#PCR Edition">PCR Edition</a><br/>
-									<a class="sideprodlist" href="#Cleanup Edition">Cleanup Edition</a><br/>
-									<a class="sideprodlist" href="#Custom Edition">Custom Edition</a><br/>
-								</div>
-
-								<div id="GenomicsTechnology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="PCR Edition">
-									<h4>PCR Edition</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Cleanup Edition">
-									<h4>Cleanup Edition</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Custom Edition">
-									<h4>Custom Edition</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="NGS Sample Preparation System" style="display:none"><h5>NGS Sample Preparation System</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#NGSWorkflow">Workflow</a><br/>
-									<a class="sideprodlist" href="#NGS LIBPREP Edition">NGS LIBPREP Edition</a><br/>
-									<a class="sideprodlist" href="#NGS Capture Edition">NGS Capture Edition</a><br/>
-								</div>
-
-								<div id="NGSWorkflow">
-									<h4>Workflow</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="NGS LIBPREP Edition">
-									<h4>NGS LIBPREP Edition</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="NGS Capture Edition">
-									<h4>NGS Capture Edition</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-							</div>
-							<div id="Circulating Tumour Cells Isolation" style="display:none"><h5>Circulating Tumour Cells (CTC) Isolation</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#CTCTechnology">Technology</a><br/>
-									<a class="sideprodlist" href="#CTCWorkflow">Workflow</a><br/>
-									<a class="sideprodlist" href="#CTCIsoflux Liquid Biopsy System">Isoflux Liquid Biopsy System</a><br/>
-									<a class="sideprodlist" href="#CTCApplications">Applications</a><br/>
-								</div>
-
-								<div id="CTCTechnology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="CTCWorkflow">
-									<h4>Workflow</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="OCTCIsoflux Liquid Biopsy System">
-									<h4>Isoflux Liquid Biopsy System</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="CTCApplications">
-									<h4>Applications</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="Genomics" style="display:none">Genomics</div>
-							<div id="qPCR assays" style="display:none">
-								<h5>qPCR assays</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#Virology">Virology</a><br/>
-									<a class="sideprodlist" href="#Bacteriology">Bacteriology</a><br/>
-									<a class="sideprodlist" href="#Bacterial Resistance">Bacterial Resistance</a><br/>
-									<a class="sideprodlist" href="#Oncology">Oncology</a><br/>
-									<a class="sideprodlist" href="#Genetics">Genetics</a><br/>
-								</div>
-
-								<div id="Virology">
-									<h4>Virology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="Bacteriology">
-									<h4>Bacteriology</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="Bacterial Resistance">
-									<h4>Bacterial Resistance</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Oncology">
-									<h4>Oncology</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-								<div id="Genetics">
-									<h4>Genetics</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<div id="HLA high Resolution assays on NGS" style="display:none"><h5>HLA high Resolution assays on NGS</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#HLATechnology">Technology</a><br/>
-									<a class="sideprodlist" href="#HOLOTYPE HLA">HOLOTYPE HLA</a><br/>
-									<a class="sideprodlist" href="#HLA Twin">HLA Twin</a><br/>
-									<a class="sideprodlist" href="#Target HLA">Target HLA</a><br/>
-								</div>
-
-								<div id="HLATechnology">
-									<h4>Technology</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="HOLOTYPE HLA">
-									<h4>HOLOTYPE HLA</h4>
-									<p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
-								</div>	
-								<div id="HLA Twin">
-									<h4>HLA Twin</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>	
-								<div id="Target HLA">
-									<h4>Target HLA</h4>
-									<p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought-frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.</p>
-								</div>
-							</div>
-							<!--div id="Pre-Clinical in VIVO imaging" style="display:none"><h5>Pre-Clinical in VIVO imaging</h5>
-								<div class="sideprodmenu">
-									<a class="sideprodlist" href="#InSyTe Optical">InSyTe Optical</a><br/>
-									<a class="sideprodlist" href="#InSyTe PET">InSyTe PET</a><br/>
-									<a class="sideprodlist" href="#InSyTe SPECT">InSyTe SPECT</a><br/>
-									<a class="sideprodlist" href="#InSyTe CT">InSyTe CT</a><br/>
-									<a class="sideprodlist" href="#Preclinical Imaging Modalities">Preclinical Imaging Modalities</a><br/>
-								</div>
-								<div id="Preclinical Imaging Modalities">
-									<h4>Preclinical Imaging Modalities</h4>
-									<h5>Small Animal Imaging Systems that Work in Concert</h5>
-									<p>TriFoil Imaging provides small animal imaging solutions for pre-clinical and in-vivo studies. TriFoil's small animal imaging system uses biomarkers in small animals to conduct in‐vivo studies of drug metabolism, bioavailability, efficacy and toxicity. These in-vivo images allow researchers to follow a prospective therapy in living animals to see absorption, distribution, metabolism, and toxicology characteristics in real time. The small animal imaging technology improves screening of drug pipeline candidates over classic in‐vitro methods by providing more relevant, consistent biological data with reduced research cost, complexity and time.</p>
-									<p><b>TriFoil Imaging provides differentiated, multimodal animal imaging solutions designed for the preclinical market:</b></p>
-									<ul>
-										<li>True 360° Optical tomography</li>
-										<li>Sub-mm PET, SPECT and X-Ray CT</li>
-										<li>Common platforms for Animal Handling</li>
-									</ul>
-									<h5>Features & Benefits</h5>		
-									<ul>
-										<li>Coregistration of Optical, SPECT, CT and PET imaging made easy - All systems use the same animal handling equipment</li>
-										<li>Efficiency in your daily research - Modalities can operate simultaneously, so there are no limitations on research workflow</li>
-										<li>Truly translational - Transfer preclinical study protocols directly to the clinic</li>
-										<li>Wide range of animal models - Accommodates small animals from mice to rats and rabbits</li>
-										<li>Upgradable platforms - As your research needs change, upgrade your TriFoil Imaging systems to add throughput and new capabilities for in-vivo small animal imaging</li>
-									</ul>
-								</div>
-								<div id="InSyTe FLECT">
-									<h4>InSyTe FLECT™</h4>
-									<p><b>True 360° Tomographic Optical Preclinical Imaging</b></p>
-									<p>With the FLECT system, TriFoil enables researchers to realize the full potential of in vivo optical imaging for small animals.FLECT allows researchers to capture true 3D tomographic images by acquiring projection images 360° around the animal subject and sequent accurate image reconstruction. With the FLECT system, researchers will no longer have to choose between imaging only near the surface of the animal subject and partial tomography solutions that distort the subject or create artifacts. Instead, the FLECT provides uniform sensitivity and resolution throughout the animal subject. For the first time, researchers will be able to examine deep tissue phenomena such as spontaneous metastases without sacrificing image quality or quantitative accuracy.</p>
-									<p>With the optional upgrade of an integrated, inline X-ray CT, researchers will gain anatomical correlation data that will significantly improve the segmentation and resolution of the optical images. Our InSyTe FLECT/CT™ system automatically co-registers the optical and CT images for better anatomical correlation.</p>
-									<p>FLECT (Fluorescence Emission Computed Tomography) reconstructs the 3D tomographic images from the photon emission data acquired 360° around the animal subject (projection images) using a state-of-the-art 3D reconstruction engine based on an accurate model of light propagation in biological tissue. The result is the most accurate optical quantitation available.</p>
-									<p>The FLECT laser excites the fluorophore inside the animal subject, causing the fluorophore to emit light at a different wavelength, or fluorescence. The fluorescence is recorded by an array of detectors around the animal subject. Then the gantry rotates, changing the position of the laser and detectors, for acquiring data at a different angle. This process is repeated again and again until the subject has been imaged at all angles covering 360° for each individual slice. The animal bed is then moved to the next slice position so that the animal subject can be imaged along its entire body.</p>
-								</div>
-								<div id="InSyTe Optical">
-									<h4>InSyTe Optical</h4>
-									<p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p><p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
-								</div>
-								<div id="InSyTe PET">
-									<h4>reclinical Benchtop InSyTe PET/CT</h4>
-									<p><b>The first High Performance PET benchtop system with in-line X-ray CT</b></p>
-									<p>The LabPET sub-system provides you with the ability to visualize and quantify biological processes over a wide range of PET tracer activities with a reconstructed isotropic image resolution of <1.0µl (<1mm).The InSyTe LabPET system is the first preclinical PET with continuous bed motion PET detection. This so-called continuous-motion PET maintains uniform signal-to-noise sensitivity across the entire scan range. This capability combined with TriFoil's digital APD-based PET expands its proven in-plane quantitative accuracy to precise quantifiable results in all dimensions. </p>
-									<h5>Other features include:</h5>
-									<ul>
-										<li>Field-of View (FOV): 11cm bore size with selectable transverse FOV of 25mm to 65mm, all with user selectable continuous-motion scanning over an axial FOV of up to 150mm.</li>
-										<li>Continuous-motion PET with list-mode acquisitions for high post-processing and reconstruction flexibility, including decay, scatter and CT-based attenuation corrections.</li>
-										<li>Reconstruction algorithms include FBP, 2D-MLEM, 3D-MLEM and fast, patent-protected 3D AMPS-OSEM algorithm</li>
-									</ul>
-									<p>The digital PET advantage:Through direct one-to-one coupling of scintillators to APD detectors, light sharing between crystal pixels and detectors can be avoided, leading to improved spatial contrast resolution. In addition, since the system employs parallel processing of the detector signals, saturation of detection and counting electronics can be avoided which results in a largely expanded quantitation range.
-									Customers will also have the option of installing the in-line CT to their benchtop system either at initial purchase or as an upgrade.  The Computed Tomography (CT) sub-system provides high-quality CT images. Its co-axial design with PET enables one-pass imaging with automatic co-registration of functional and anatomical images. The CT system features a large-area 1.3 mega pixel CMOS detector and 50W X-ray source, optimized for soft-tissue contrast imaging. It has the flexibility to perform a wide range of acquisition protocols, with whole-body imaging in less than 90 seconds.</p>
-								</div>	
-								<div id="InSyTe SPECT">
-									<h4>Preclinical Benchtop InSyTe SPECT/CT</h4>
-									<p><b>The first benchtop SPECT system with MMP-SPECT™</b></p>
-									<p>The MMP-SPECT sub-system exploits the proven performance of Multiplexed Multi-Pinhole SPECT (MMP-SPECT) and the high intrinsic spatial and energy resolutions of the solid-state Cadmium Zinc Telluride (CZT) detector technology. Direct CZT detection eliminates scintillator light-spreading and PMT light-sharing. This enables simultaneous pinhole projection of up to 16 images on a single detector.</p>
-									<p>The InSyTe SPECT sub-system is designed to perform both focused and whole-body SPECT imaging, as well as static and dynamic SPECT acquisitions.</p>
-									<p><b>Other features include:</b></p>
-									<ul>
-										<li>Is configured with two CZT digital gamma cameras of high intrinsic 1.6 mm resolution.</li>
-										<li>Multi-pinhole collimators with up to 16 pinholes per detector for mice and small rats.</li>
-										<li>High energy resolution (better than 4.5 % at 140 keV) generates clear images by reducing radiation scatter, and is uniquely suited for simultaneous multi-isotope imaging.</li>
-										<li>Single- and multi-isotope detection of all common SPECT isotopes: I-125, 99mTc, I-123, In-111, Lu-177, Re-188, etc.</li>
-										<li>Patent-protected HiSPECT 3D-OSEM image reconstruction with RAYguide contrast enhancement for low-dose images</li>
-									</ul>
-									<h5>The Digital SPECT Advantage illustrated:</h5>
-									<p>Overlapping projections are enabling InSyTe's SPECT system to cover the entire diameter of the animal with one single acquisition, thus avoiding numerous step-and-shoot system operations for whole-body scanning.</p>
-								</div>	
-								<div id="InSyTe SPECT">
-									<h4>InSyTe Benchtop CT</h4>
-									<p><b>The first in-line X-ray CT series available with either a FLECT, PET or SPECT</b></p>
-									<p>The InSyTE X-Ray Only (XO) Computed Tomography (CT) system provides high-quality CT images. Its co-axial design with PET, SPECT or FLECT enables one-pass imaging with automatic co-registration of functional and anatomical images. When used for standalone X-ray CT, images can be fused with tomographic images from other systems imported through DICOM. The CT system features a large-area 1.3 mega pixel CMOS detector and 50W X-ray source, optimized for soft-tissue contrast imaging. It has the flexibility to perform a wide range of acquisition protocols, with whole-body imaging in less than 90 seconds.</p>
-									<p>The InSyTe CT can be installed with FLECT, PET or SPECT or later upgraded at the user's facility.</p>
-								</div>	
-							</div-->
-						</div>
-					</div>
-				</div>
-			</div>
-			
-    </div>
-	<!-- jQuery -->
+	
+      	<!-- jQuery -->
     <script src="js/prodslider/jquery.js"></script>
     <script src="js/script.js"></script>
     <script src="js/prodmenu.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/fancybox.main.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- For Menu Header JavaScript-->
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
@@ -2162,12 +976,6 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-	<script src="js/particles.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/lib/stats.js"></script>
 </body>
 
 </html>

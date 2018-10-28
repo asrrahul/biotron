@@ -31,3 +31,6 @@ function chbg(){
 	//alert('Im here');
 	//document.getElementById('b').style.backgroundColor = color;
 }	
+function openTab(){
+	alert('Rahul Validating');
+}
