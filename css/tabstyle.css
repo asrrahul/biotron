@@ -18,7 +18,7 @@ main {
 section {
   display: none;
   padding: 20px 0 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;  
 }
 
 input {
@@ -106,4 +106,18 @@ input:checked + label {
   label {
     padding: 15px;
   }
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/sponsor-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
