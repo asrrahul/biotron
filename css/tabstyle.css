@@ -110,7 +110,7 @@ input:checked + label {
 
 .parallax {
     /* The image used */
-    background-image: url("../img/sponsor-bg.jpg");
+    background-image: url("../img/slider/bg6.jpg");
 
     /* Full height */
     height: 100%; 
